@@ -51,9 +51,11 @@ function LogoMenu() {
           <button role="menuitem" className={item} onClick={run(() => openApp('about'))}>
             About {SITE_NAME}
           </button>
-          <a role="menuitem" className={item} href={PREPLY_URL} target="_blank" rel="noopener noreferrer" onClick={() => setOpen(false)}>
-            Book a trial lesson ↗
-          </a>
+          {PREPLY_URL && (
+            <a role="menuitem" className={item} href={PREPLY_URL} target="_blank" rel="noopener noreferrer" onClick={() => setOpen(false)}>
+              Book a trial lesson ↗
+            </a>
+          )}
           <button role="menuitem" className={item} onClick={run(() => openApp('progress'))}>
             My progress
           </button>
@@ -107,14 +109,16 @@ export function MenuBar({ status }: { status?: React.ReactNode }) {
       <div className="flex items-center gap-1">
         <LogoMenu />
         <span className="px-2 font-semibold">{focused ? APP_BY_ID[focused].title : SITE_NAME}</span>
-        <a
-          href={PREPLY_URL}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="hidden rounded px-2 py-0.5 hover:bg-black/10 sm:block dark:hover:bg-white/15"
-        >
-          Book a lesson
-        </a>
+        {PREPLY_URL && (
+          <a
+            href={PREPLY_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hidden rounded px-2 py-0.5 hover:bg-black/10 sm:block dark:hover:bg-white/15"
+          >
+            Book a lesson
+          </a>
+        )}
       </div>
       <div className="flex items-center gap-1">
         {status}

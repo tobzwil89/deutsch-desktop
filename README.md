@@ -20,12 +20,12 @@ npm run preview    # gebaute Version ansehen, http://localhost:4173
 
 | Was | Wo |
 |---|---|
-| Preply-Link (alle Buchungsknöpfe) | `src/config.ts` → `PREPLY_URL` |
+| Preply-Link (alle Buchungsknöpfe) | `src/config.ts` → `PREPLY_URL`. Leer = Buchungsknöpfe ausgeblendet |
 | Name, Kontakt-E-Mail | `src/config.ts` → `TUTOR_NAME`, `CONTACT_EMAIL` |
 | Foto | Bild nach `public/` legen (z. B. `public/tobias.jpg`), dann `PHOTO_URL = '/tobias.jpg'` in `src/config.ts` |
 | Vorstellungsvideo | `src/config.ts` → `YOUTUBE_VIDEO_ID` (nur die ID, z. B. `dQw4w9WgXcQ`). Leer = kein Video |
-| Texte „About Me“ | `src/data/about.ts` (alles in `[eckigen Klammern]`) |
-| Impressum, Datenschutz | `src/data/legal.ts` und Fließtext in `src/apps/legal/LegalApp.tsx` |
+| Texte „About Me“ | `src/data/about.ts` |
+| Impressum, Datenschutz | `src/data/legal.ts` (leere optionale Felder werden ausgeblendet) und Fließtext in `src/apps/legal/LegalApp.tsx` |
 | Subdomain | `public/CNAME` und GitHub-Einstellungen (siehe unten) |
 
 ## Deployment auf GitHub Pages
@@ -42,8 +42,8 @@ Einmalige Einrichtung:
    ```
 3. Im Repository: **Settings → Pages → Build and deployment → Source: „GitHub Actions“**.
 4. Beim Domain-Anbieter einen DNS-Eintrag anlegen:
-   `CNAME`  `deutsch`  →  `tobzwil89.github.io`
-5. **Settings → Pages → Custom domain:** `deutsch.tobiaszwilling.me` eintragen und speichern. Sobald das Zertifikat da ist (kann bis zu 24 h dauern), **„Enforce HTTPS“** anhaken.
+   `CNAME`  `lernen`  →  `tobzwil89.github.io`
+5. **Settings → Pages → Custom domain:** `lernen.tobiaszwilling.me` eintragen und speichern. Sobald das Zertifikat da ist (kann bis zu 24 h dauern), **„Enforce HTTPS“** anhaken.
 
 Hinweis: Beim Veröffentlichen über GitHub Actions zählt die Domain aus den Pages-Einstellungen (Schritt 5). `public/CNAME` liegt trotzdem bei, schadet nicht.
 

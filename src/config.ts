@@ -1,7 +1,7 @@
 // Zentrale Einstellungen – hier die Platzhalter ersetzen.
 
-/** Link zu deinem Preply-Profil (Buchungsknöpfe überall auf der Seite). */
-export const PREPLY_URL = 'https://preply.com/en/tutor/PLACEHOLDER'
+/** Link zu deinem Preply-Profil. Leer = alle Buchungsknöpfe werden ausgeblendet. */
+export const PREPLY_URL = ''
 
 /** Name, der im Bootscreen, im Menü und in „About“ erscheint. */
 export const TUTOR_NAME = 'Tobias Zwilling'

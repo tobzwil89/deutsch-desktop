@@ -68,15 +68,17 @@ function Result({ result, answers, onRetake }: { result: LevelTestResult; answer
         listening or writing. In a trial lesson we can find out exactly where you stand.
       </p>
 
-      <a
-        href={PREPLY_URL}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="block rounded-2xl bg-gradient-to-r from-emerald-600 to-teal-600 p-4 text-center text-white shadow-lg hover:from-emerald-500 hover:to-teal-500"
-      >
-        <span className="block text-lg font-bold">Book a trial lesson</span>
-        <span className="block text-sm opacity-90">Get a personal learning plan for your {result.level} German ↗</span>
-      </a>
+      {PREPLY_URL && (
+        <a
+          href={PREPLY_URL}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="block rounded-2xl bg-gradient-to-r from-emerald-600 to-teal-600 p-4 text-center text-white shadow-lg hover:from-emerald-500 hover:to-teal-500"
+        >
+          <span className="block text-lg font-bold">Book a trial lesson</span>
+          <span className="block text-sm opacity-90">Get a personal learning plan for your {result.level} German ↗</span>
+        </a>
+      )}
 
       <Card>
         <h3 className="mb-3 font-semibold">Strengths and weaknesses</h3>

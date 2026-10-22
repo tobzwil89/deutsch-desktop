@@ -21,7 +21,7 @@ export default function App() {
   // Beim Start prüfen, ob gestern ein Tag verpasst wurde (Streak/Freeze)
   useEffect(() => settleStreak(), [])
 
-  const cta = (
+  const cta = PREPLY_URL && (
     <a
       href={PREPLY_URL}
       target="_blank"

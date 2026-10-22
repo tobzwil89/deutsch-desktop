@@ -5,12 +5,13 @@
 import { CONTACT_EMAIL } from '../config'
 
 export const IMPRINT = {
-  name: '[Tobias Zwilling]',
-  address: ['[Street and number]', '[Postcode City]', '[Country]'],
+  name: 'Tobias Zwilling',
+  address: ['Flöhbachäcker 23', '96486 Lautertal', 'Deutschland'],
   email: CONTACT_EMAIL,
-  phone: '[optional: phone number]',
-  vatId: '[optional: VAT ID according to § 27a UStG]',
-  responsible: '[Name and address of the person responsible for content according to § 18 (2) MStV]',
+  // Optional – leer lassen blendet die Zeile aus
+  phone: '',
+  vatId: '',
+  responsible: '',
 }
 
-export const PRIVACY_UPDATED = '[date]'
+export const PRIVACY_UPDATED = 'October 2026'

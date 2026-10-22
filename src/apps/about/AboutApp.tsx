@@ -60,24 +60,19 @@ export default function AboutApp() {
           <h3 className="text-2xl font-bold">{TUTOR_NAME}</h3>
           <p className="text-sm text-slate-600 dark:text-slate-300">{ABOUT.tagline}</p>
         </div>
-        <ul className="flex flex-wrap justify-center gap-2 text-xs">
-          {ABOUT.facts.map((f) => (
-            <li key={f} className="rounded-full bg-rose-100 px-3 py-1 font-medium text-rose-800 dark:bg-rose-950 dark:text-rose-200">
-              {f}
-            </li>
-          ))}
-        </ul>
       </header>
 
-      <a
-        href={PREPLY_URL}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="block rounded-2xl bg-gradient-to-r from-rose-600 to-pink-600 p-4 text-center text-white shadow-lg hover:from-rose-500 hover:to-pink-500"
-      >
-        <span className="block text-lg font-bold">Book a trial lesson on Preply</span>
-        <span className="block text-sm opacity-90">Let’s find out what you need – in your first lesson ↗</span>
-      </a>
+      {PREPLY_URL && (
+        <a
+          href={PREPLY_URL}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="block rounded-2xl bg-gradient-to-r from-rose-600 to-pink-600 p-4 text-center text-white shadow-lg hover:from-rose-500 hover:to-pink-500"
+        >
+          <span className="block text-lg font-bold">Book a trial lesson on Preply</span>
+          <span className="block text-sm opacity-90">Let’s find out what you need – in your first lesson ↗</span>
+        </a>
+      )}
 
       <section className="space-y-3 text-[15px] leading-relaxed">
         {ABOUT.intro.map((p) => (

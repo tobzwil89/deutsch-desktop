@@ -20,12 +20,20 @@ function Imprint() {
       </p>
       <p>
         Email: {IMPRINT.email}
-        <br />
-        Phone: {IMPRINT.phone}
+        {IMPRINT.phone && (
+          <>
+            <br />
+            Phone: {IMPRINT.phone}
+          </>
+        )}
       </p>
-      <p>{IMPRINT.vatId}</p>
-      <h4 className="font-semibold">Responsible for content</h4>
-      <p>{IMPRINT.responsible}</p>
+      {IMPRINT.vatId && <p>VAT ID: {IMPRINT.vatId}</p>}
+      {IMPRINT.responsible && (
+        <>
+          <h4 className="font-semibold">Responsible for content</h4>
+          <p>{IMPRINT.responsible}</p>
+        </>
+      )}
       <h4 className="font-semibold">Disclaimer</h4>
       <p>
         The learning content was created with care, but I cannot guarantee that it is complete or free of errors. Links to external websites (e.g.
@@ -66,8 +74,8 @@ function Privacy() {
         The introduction video in “About Me” is only loaded after you click on it (via youtube-nocookie.com). Only then is data transmitted to
         YouTube (Google Ireland Ltd.). Legal basis: your consent by clicking, Art. 6 (1) (a) GDPR.
       </p>
-      <h4 className="font-semibold">6. Links to Preply</h4>
-      <p>Booking buttons link to my profile on Preply. Once you leave this site, Preply’s privacy policy applies.</p>
+      <h4 className="font-semibold">6. External links</h4>
+      <p>Links to other websites (e.g. Preply) are only followed when you click them. Once you leave this site, the privacy policy of that website applies.</p>
       <h4 className="font-semibold">7. Your rights</h4>
       <p>
         You have the right to access, rectification, erasure, restriction of processing, data portability and objection (Art. 15–21 GDPR), and

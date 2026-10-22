@@ -115,7 +115,7 @@ export function MobileHeader({ cta }: { cta: React.ReactNode }) {
         <GoalRing size={22} stroke={3.5} />
         <span>Today: <strong className="tabular-nums">{todayXp}/{goal} XP</strong></span>
       </div>
-      <div className="mt-3">{cta}</div>
+      {cta && <div className="mt-3">{cta}</div>}
     </section>
   )
 }
