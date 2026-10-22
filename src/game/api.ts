@@ -6,6 +6,7 @@ import { playSound } from './sound'
 import { initialGameData, useGame } from './store'
 import type { GameData, Tally, Tense } from './types'
 import { levelInfo, MAX_FREEZES, STREAK_FREEZE_COST } from './xp'
+import { rate, type Rating } from '../lib/srs'
 
 // Die einzige Schnittstelle der Apps zur Gamification:
 // recordAnswer(...), awardXP(...), finishRound(...), saveHighscore(...)
@@ -152,4 +153,12 @@ export function importProgress(json: string): boolean {
 
 export function resetProgress() {
   useGame.setState(initialGameData(), true)
+}
+
+// --- Karteikarten (Leitner) ---
+
+export function rateCard(cardId: string, rating: Rating) {
+  const s = get()
+  set({ srs: { ...s.srs, [cardId]: rate(s.srs[cardId], rating, dayKey()) } })
+  checkBadges()
 }

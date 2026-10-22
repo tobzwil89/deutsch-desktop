@@ -37,3 +37,18 @@ export function useClock(intervalMs = 10_000): Date {
   }, [intervalMs])
   return now
 }
+
+/** Tastenkürzel, die nur greifen, wenn diese App im Vordergrund ist (und nicht in Eingabefeldern). */
+export function useAppKeys(appId: string, handler: (e: KeyboardEvent) => void, active = true) {
+  const focused = useUI((s) => s.focused === appId)
+  useEffect(() => {
+    if (!active || !focused) return
+    const onKey = (e: KeyboardEvent) => {
+      const el = e.target as HTMLElement
+      if (e.metaKey || e.ctrlKey || e.altKey || el.closest('input, textarea, select')) return
+      handler(e)
+    }
+    window.addEventListener('keydown', onKey)
+    return () => window.removeEventListener('keydown', onKey)
+  }, [active, focused, handler])
+}
