@@ -1,13 +1,16 @@
-import { useCallback, useEffect, useState } from 'react'
-import { AnimatePresence } from 'framer-motion'
+import { lazy, Suspense, useCallback, useEffect, useState } from 'react'
+import { AnimatePresence, LazyMotion } from 'framer-motion'
 import { useApplyTheme, useIsMobile } from './lib/hooks'
 import { BootScreen } from './shell/BootScreen'
-import { DesktopShell } from './shell/DesktopShell'
-import { MobileShell } from './shell/MobileShell'
 import { GameStatus, MobileHeader } from './shell/GameStatus'
 import { Toasts } from './shell/Toasts'
 import { settleStreak } from './game/api'
 import { PREPLY_URL } from './config'
+
+// Desktop und Handy getrennt laden: das Handy braucht keine Fensterverwaltung
+const DesktopShell = lazy(() => import('./shell/DesktopShell').then((mod) => ({ default: mod.DesktopShell })))
+const MobileShell = lazy(() => import('./shell/MobileShell').then((mod) => ({ default: mod.MobileShell })))
+const loadMotionFeatures = () => import('./lib/motionFeatures').then((mod) => mod.default)
 
 export default function App() {
   useApplyTheme()
@@ -30,13 +33,15 @@ export default function App() {
   )
 
   return (
-    <>
-      {isMobile ? (
-        <MobileShell status={<GameStatus mobile />} header={<MobileHeader cta={cta} />} overlay={<Toasts />} />
-      ) : (
-        <DesktopShell status={<GameStatus />} overlay={<Toasts />} />
-      )}
+    <LazyMotion features={loadMotionFeatures} strict>
+      <Suspense fallback={null}>
+        {isMobile ? (
+          <MobileShell status={<GameStatus mobile />} header={<MobileHeader cta={cta} />} overlay={<Toasts />} />
+        ) : (
+          <DesktopShell status={<GameStatus />} overlay={<Toasts />} />
+        )}
+      </Suspense>
       <AnimatePresence>{!booted && <BootScreen key="boot" onDone={finishBoot} />}</AnimatePresence>
-    </>
+    </LazyMotion>
   )
 }

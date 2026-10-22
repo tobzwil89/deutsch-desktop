@@ -1,4 +1,4 @@
-import { AnimatePresence, motion } from 'framer-motion'
+import { AnimatePresence, m } from 'framer-motion'
 import type { ReactNode } from 'react'
 import { useToasts, type ToastKind } from '../game/notify'
 import { Flame } from './GameStatus'
@@ -22,10 +22,9 @@ export function Toasts() {
     >
       <AnimatePresence>
         {toasts.map((t) => (
-          <motion.button
+          <m.button
             key={t.id}
             type="button"
-            layout
             onClick={() => dismiss(t.id)}
             initial={{ opacity: 0, x: 60 }}
             animate={{ opacity: 1, x: 0 }}
@@ -39,7 +38,7 @@ export function Toasts() {
               <span className="block text-sm font-semibold text-slate-900 dark:text-white">{t.title}</span>
               {t.body && <span className="block text-xs text-slate-600 dark:text-slate-300">{t.body}</span>}
             </span>
-          </motion.button>
+          </m.button>
         ))}
       </AnimatePresence>
     </div>

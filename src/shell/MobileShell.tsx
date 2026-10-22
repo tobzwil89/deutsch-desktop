@@ -1,5 +1,5 @@
 import { Suspense, useEffect, useRef, useState, type ReactNode } from 'react'
-import { AnimatePresence, motion, useReducedMotion } from 'framer-motion'
+import { AnimatePresence, m, useReducedMotion } from 'framer-motion'
 import { APPS, APP_BY_ID, type AppId } from '../apps/registry'
 import { useClock } from '../lib/hooks'
 import { useUI } from './uiStore'
@@ -22,7 +22,7 @@ function MobileAppView({ id }: { id: AppId }) {
   const [dx, setDx] = useState(0)
 
   return (
-    <motion.div
+    <m.div
       role="dialog"
       aria-label={app.title}
       className="fixed inset-0 z-50 flex flex-col bg-white text-slate-900 dark:bg-slate-900 dark:text-slate-100"
@@ -62,7 +62,7 @@ function MobileAppView({ id }: { id: AppId }) {
           <app.Component />
         </Suspense>
       </div>
-    </motion.div>
+    </m.div>
   )
 }
 
@@ -76,7 +76,7 @@ function AppButton({ id, size = 60, showLabel = true }: { id: AppId; size?: numb
       className="flex flex-col items-center gap-1.5 active:scale-95 transition-transform"
     >
       <app.Icon size={size} className="drop-shadow-md" />
-      {showLabel && <span className="text-[11px] font-medium text-slate-900 dark:text-white dark:[text-shadow:0_1px_3px_rgba(0,0,0,.7)]">{app.label}</span>}
+      {showLabel && <span className="text-xs font-medium text-slate-900 dark:text-white dark:[text-shadow:0_1px_3px_rgba(0,0,0,.7)]">{app.label}</span>}
     </button>
   )
 }

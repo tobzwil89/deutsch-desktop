@@ -71,7 +71,7 @@ export function GameStatus({ mobile = false }: { mobile?: boolean }) {
         <Flame active={goalDone} />
         <span className="tabular-nums font-medium">{streak}</span>
       </button>
-      <button type="button" className={btn} onClick={openProgress} aria-label={`Level ${level}, ${current} of ${needed} XP to next level`} title={`${current}/${needed} XP to level ${level + 1}`}>
+      <button type="button" className={btn} onClick={openProgress} aria-label={`Lv ${level} – ${current} of ${needed} XP to level ${level + 1}`} title={`${current}/${needed} XP to level ${level + 1}`}>
         <span className="font-semibold">Lv {level}</span>
         {!mobile && (
           <span className="h-1.5 w-16 overflow-hidden rounded-full bg-black/15 dark:bg-white/20">

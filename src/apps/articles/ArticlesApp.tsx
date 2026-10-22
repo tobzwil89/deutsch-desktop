@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
-import { motion, useReducedMotion } from 'framer-motion'
+import { m, useReducedMotion } from 'framer-motion'
 import { VOCAB, VOCAB_LEVELS, type Article, type Word } from '../../data/vocab'
 import { finishRound, recordAnswer, saveHighscore } from '../../game/api'
 import { useGame } from '../../game/store'
@@ -201,7 +201,7 @@ export default function ArticlesApp() {
         <div className={`h-full ${timeLeft < 10 ? 'bg-rose-500' : 'bg-indigo-500'}`} style={{ width: `${(timeLeft / ROUND_SECONDS) * 100}%` }} />
       </div>
 
-      <motion.div
+      <m.div
         key={feedback?.id ?? 'start'}
         animate={reduce || !feedback ? {} : feedback.ok ? { scale: [1, 1.04, 1] } : { x: [0, -10, 10, -6, 6, 0] }}
         transition={{ duration: 0.3 }}
@@ -212,7 +212,7 @@ export default function ArticlesApp() {
       >
         <div className="text-4xl font-bold sm:text-5xl">{current?.word}</div>
         <div className="mt-2 text-sm text-slate-500 dark:text-slate-400">{current?.en}</div>
-      </motion.div>
+      </m.div>
 
       <p className="min-h-10 text-center text-sm text-rose-700 dark:text-rose-300" role="status">
         {feedback?.ok === false ? feedback.text : ''}

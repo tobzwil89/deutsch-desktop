@@ -1,4 +1,3 @@
-import confetti from 'canvas-confetti'
 import { addDays, dayKey, daysBetween } from '../lib/date'
 import { BADGES } from './badges'
 import { notify } from './notify'
@@ -35,7 +34,8 @@ export function settleStreak() {
 }
 
 function celebrate() {
-  void confetti({ particleCount: 140, spread: 80, origin: { y: 0.3 }, disableForReducedMotion: true, zIndex: 9999 })
+  // Erst beim ersten Level-up laden, damit der Start schneller ist
+  void import('canvas-confetti').then(({ default: confetti }) => confetti({ particleCount: 140, spread: 80, origin: { y: 0.3 }, disableForReducedMotion: true, zIndex: 9999 }))
 }
 
 export function checkBadges() {

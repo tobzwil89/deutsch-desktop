@@ -1,6 +1,6 @@
 import { Suspense, useEffect, useRef, useState } from 'react'
 import { Rnd } from 'react-rnd'
-import { motion, useReducedMotion } from 'framer-motion'
+import { m, useReducedMotion } from 'framer-motion'
 import type { AppDef } from '../apps/registry'
 import { useUI, type Geometry } from './uiStore'
 import { Spinner } from './Spinner'
@@ -98,7 +98,7 @@ export function Window({ app, index }: { app: AppDef; index: number }) {
       }
       style={{ zIndex: state.z, pointerEvents: state.minimized ? 'none' : 'auto' }}
     >
-      <motion.div
+      <m.div
         ref={innerRef}
         tabIndex={-1}
         role="dialog"
@@ -152,7 +152,7 @@ export function Window({ app, index }: { app: AppDef; index: number }) {
             <app.Component />
           </Suspense>
         </div>
-      </motion.div>
+      </m.div>
     </Rnd>
   )
 }

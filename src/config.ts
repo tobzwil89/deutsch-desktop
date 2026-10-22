@@ -12,3 +12,6 @@ export const YOUTUBE_VIDEO_ID = ''
 
 /** Kontaktadresse für Impressum und About. */
 export const CONTACT_EMAIL = 'hello@PLACEHOLDER.me'
+
+/** Pfad zu deinem Foto, z. B. '/tobias.jpg' (Datei in public/ legen). Leer = Platzhalter mit Initialen. */
+export const PHOTO_URL = ''

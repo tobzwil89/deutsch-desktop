@@ -1,5 +1,5 @@
 import { useRef, useState } from 'react'
-import { motion, useMotionValue, useReducedMotion, useSpring, useTransform, type MotionValue } from 'framer-motion'
+import { m, useMotionValue, useReducedMotion, useSpring, useTransform, type MotionValue } from 'framer-motion'
 import { APPS, type AppDef } from '../apps/registry'
 import { useUI } from './uiStore'
 
@@ -31,7 +31,7 @@ function DockIcon({ app, mouseX, magnify }: { app: AppDef; mouseX: MotionValue<n
           {app.title}
         </span>
       )}
-      <motion.button
+      <m.button
         ref={ref}
         id={`dock-${app.id}`}
         type="button"
@@ -45,7 +45,7 @@ function DockIcon({ app, mouseX, magnify }: { app: AppDef; mouseX: MotionValue<n
         className="rounded-[22%]"
       >
         <app.Icon className="h-full w-full drop-shadow-md" />
-      </motion.button>
+      </m.button>
       <span
         aria-hidden="true"
         className={`mt-1 h-1 w-1 rounded-full ${running ? 'bg-slate-800 dark:bg-white' : 'bg-transparent'}`}

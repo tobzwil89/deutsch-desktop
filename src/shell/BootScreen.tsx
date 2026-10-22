@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import { motion, useReducedMotion } from 'framer-motion'
+import { m, useReducedMotion } from 'framer-motion'
 import { Logo } from '../icons/AppIcons'
 import { SITE_NAME } from '../config'
 
@@ -20,7 +20,7 @@ export function BootScreen({ onDone }: { onDone: () => void }) {
   }, [onDone, duration])
 
   return (
-    <motion.div
+    <m.div
       className="fixed inset-0 z-[10000] grid place-items-center bg-slate-950 text-white"
       exit={{ opacity: 0 }}
       transition={{ duration: 0.3 }}
@@ -31,7 +31,7 @@ export function BootScreen({ onDone }: { onDone: () => void }) {
         <Logo size={72} className="text-amber-400" />
         <p className="text-lg font-semibold tracking-wide">{SITE_NAME}</p>
         <div className="h-1.5 w-48 overflow-hidden rounded-full bg-white/15">
-          <motion.div
+          <m.div
             className="h-full rounded-full bg-white"
             initial={{ width: '0%' }}
             animate={{ width: '100%' }}
@@ -40,6 +40,6 @@ export function BootScreen({ onDone }: { onDone: () => void }) {
         </div>
         <p className="text-xs text-white/60">Click or press any key to skip</p>
       </div>
-    </motion.div>
+    </m.div>
   )
 }
