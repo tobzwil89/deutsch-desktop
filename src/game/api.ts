@@ -4,7 +4,7 @@ import { BADGES } from './badges'
 import { notify } from './notify'
 import { playSound } from './sound'
 import { initialGameData, useGame } from './store'
-import type { GameData, Tally, Tense } from './types'
+import type { GameData, LevelTestResult, Tally, Tense } from './types'
 import { levelInfo, MAX_FREEZES, STREAK_FREEZE_COST } from './xp'
 import { rate, type Rating } from '../lib/srs'
 
@@ -160,5 +160,12 @@ export function resetProgress() {
 export function rateCard(cardId: string, rating: Rating) {
   const s = get()
   set({ srs: { ...s.srs, [cardId]: rate(s.srs[cardId], rating, dayKey()) } })
+  checkBadges()
+}
+
+// --- Einstufungstest ---
+
+export function saveLevelTest(result: LevelTestResult) {
+  set({ levelTest: result })
   checkBadges()
 }

@@ -1,0 +1,917 @@
+[
+  {
+    "id": "a1-01",
+    "level": "A1",
+    "skill": "grammar",
+    "question": "Ich ___ aus Spanien.",
+    "correct": "komme",
+    "wrong": [
+      "kommst",
+      "kommt",
+      "kommen"
+    ]
+  },
+  {
+    "id": "a1-02",
+    "level": "A1",
+    "skill": "grammar",
+    "question": "Das ist ___ Tisch.",
+    "correct": "der",
+    "wrong": [
+      "die",
+      "das",
+      "den"
+    ]
+  },
+  {
+    "id": "a1-03",
+    "level": "A1",
+    "skill": "grammar",
+    "question": "Wie ___ du?",
+    "correct": "heißt",
+    "wrong": [
+      "heiße",
+      "heißen",
+      "heißet"
+    ]
+  },
+  {
+    "id": "a1-04",
+    "level": "A1",
+    "skill": "grammar",
+    "question": "Wir ___ in Berlin.",
+    "correct": "wohnen",
+    "wrong": [
+      "wohnt",
+      "wohnst",
+      "wohne"
+    ]
+  },
+  {
+    "id": "a1-05",
+    "level": "A1",
+    "skill": "grammar",
+    "question": "Ich habe ___ Bruder.",
+    "correct": "einen",
+    "wrong": [
+      "ein",
+      "eine",
+      "einer"
+    ]
+  },
+  {
+    "id": "a1-06",
+    "level": "A1",
+    "skill": "grammar",
+    "question": "___ kommst du? – Aus Italien.",
+    "correct": "Woher",
+    "wrong": [
+      "Wo",
+      "Wohin",
+      "Wann"
+    ]
+  },
+  {
+    "id": "a1-07",
+    "level": "A1",
+    "skill": "grammar",
+    "question": "Er ___ gern Fußball.",
+    "correct": "spielt",
+    "wrong": [
+      "spielen",
+      "spielst",
+      "spiele"
+    ]
+  },
+  {
+    "id": "a1-08",
+    "level": "A1",
+    "skill": "vocabulary",
+    "question": "Was ist das Gegenteil von „groß“?",
+    "correct": "klein",
+    "wrong": [
+      "lang",
+      "alt",
+      "neu"
+    ]
+  },
+  {
+    "id": "a1-09",
+    "level": "A1",
+    "skill": "vocabulary",
+    "question": "Montag, Dienstag, ___, Donnerstag",
+    "correct": "Mittwoch",
+    "wrong": [
+      "Freitag",
+      "Sonntag",
+      "Samstag"
+    ]
+  },
+  {
+    "id": "a1-10",
+    "level": "A1",
+    "skill": "vocabulary",
+    "question": "Ich trinke morgens eine Tasse ___.",
+    "correct": "Kaffee",
+    "wrong": [
+      "Brot",
+      "Käse",
+      "Apfel"
+    ]
+  },
+  {
+    "id": "a1-11",
+    "level": "A1",
+    "skill": "vocabulary",
+    "question": "Wie sagt man „thank you“ auf Deutsch?",
+    "correct": "Danke",
+    "wrong": [
+      "Bitte",
+      "Hallo",
+      "Tschüss"
+    ]
+  },
+  {
+    "id": "a1-12",
+    "level": "A1",
+    "skill": "vocabulary",
+    "question": "Elf plus zwei ist ___.",
+    "correct": "dreizehn",
+    "wrong": [
+      "zwölf",
+      "dreißig",
+      "zwanzig"
+    ]
+  },
+  {
+    "id": "a1-13",
+    "level": "A1",
+    "skill": "reading",
+    "text": "Hallo, ich bin Lena. Ich bin 25 Jahre alt und wohne in Hamburg. Ich arbeite als Krankenschwester. Am Wochenende spiele ich Tennis.",
+    "question": "Wo wohnt Lena?",
+    "correct": "In Hamburg.",
+    "wrong": [
+      "In Berlin.",
+      "In München.",
+      "Das steht nicht im Text."
+    ]
+  },
+  {
+    "id": "a1-14",
+    "level": "A1",
+    "skill": "reading",
+    "text": "Hallo, ich bin Lena. Ich bin 25 Jahre alt und wohne in Hamburg. Ich arbeite als Krankenschwester. Am Wochenende spiele ich Tennis.",
+    "question": "Was macht Lena am Wochenende?",
+    "correct": "Sie spielt Tennis.",
+    "wrong": [
+      "Sie arbeitet.",
+      "Sie schwimmt.",
+      "Sie kocht."
+    ]
+  },
+  {
+    "id": "a1-15",
+    "level": "A1",
+    "skill": "reading",
+    "text": "Supermarkt Frisch – Öffnungszeiten: Montag bis Freitag 8–20 Uhr, Samstag 8–16 Uhr, Sonntag geschlossen.",
+    "question": "Kann man am Sonntag einkaufen?",
+    "correct": "Nein.",
+    "wrong": [
+      "Ja, bis 16 Uhr.",
+      "Ja, bis 20 Uhr.",
+      "Ja, ab 8 Uhr."
+    ]
+  },
+  {
+    "id": "a2-01",
+    "level": "A2",
+    "skill": "grammar",
+    "question": "Gestern ___ ich ins Kino gegangen.",
+    "correct": "bin",
+    "wrong": [
+      "habe",
+      "war",
+      "hatte"
+    ]
+  },
+  {
+    "id": "a2-02",
+    "level": "A2",
+    "skill": "grammar",
+    "question": "Ich gebe ___ Mann das Buch.",
+    "correct": "dem",
+    "wrong": [
+      "den",
+      "der",
+      "des"
+    ]
+  },
+  {
+    "id": "a2-03",
+    "level": "A2",
+    "skill": "grammar",
+    "question": "Ich kann heute nicht kommen, ___ ich krank bin.",
+    "correct": "weil",
+    "wrong": [
+      "denn",
+      "aber",
+      "deshalb"
+    ]
+  },
+  {
+    "id": "a2-04",
+    "level": "A2",
+    "skill": "grammar",
+    "question": "Das Auto ist ___ als das Fahrrad.",
+    "correct": "schneller",
+    "wrong": [
+      "schnell",
+      "am schnellsten",
+      "schnellste"
+    ]
+  },
+  {
+    "id": "a2-05",
+    "level": "A2",
+    "skill": "grammar",
+    "question": "Wir treffen uns ___ Montag.",
+    "correct": "am",
+    "wrong": [
+      "im",
+      "um",
+      "an"
+    ]
+  },
+  {
+    "id": "a2-06",
+    "level": "A2",
+    "skill": "grammar",
+    "question": "Hast du ___ Hausaufgaben gemacht?",
+    "correct": "deine",
+    "wrong": [
+      "dein",
+      "deinen",
+      "deinem"
+    ]
+  },
+  {
+    "id": "a2-07",
+    "level": "A2",
+    "skill": "grammar",
+    "question": "Als Kind ___ ich in Köln.",
+    "correct": "wohnte",
+    "wrong": [
+      "wohne",
+      "gewohnt",
+      "wohnen"
+    ]
+  },
+  {
+    "id": "a2-08",
+    "level": "A2",
+    "skill": "vocabulary",
+    "question": "Ich habe Kopfschmerzen. Ich gehe zum ___.",
+    "correct": "Arzt",
+    "wrong": [
+      "Bäcker",
+      "Friseur",
+      "Bahnhof"
+    ]
+  },
+  {
+    "id": "a2-09",
+    "level": "A2",
+    "skill": "vocabulary",
+    "question": "Der Zug hat 20 Minuten ___.",
+    "correct": "Verspätung",
+    "wrong": [
+      "Fahrkarte",
+      "Abfahrt",
+      "Gleis"
+    ]
+  },
+  {
+    "id": "a2-10",
+    "level": "A2",
+    "skill": "vocabulary",
+    "question": "Im Restaurant: „Die ___, bitte!“ – Ich möchte bezahlen.",
+    "correct": "Rechnung",
+    "wrong": [
+      "Speisekarte",
+      "Bestellung",
+      "Küche"
+    ]
+  },
+  {
+    "id": "a2-11",
+    "level": "A2",
+    "skill": "vocabulary",
+    "question": "Was zieht man im Winter an?",
+    "correct": "einen Mantel",
+    "wrong": [
+      "eine Badehose",
+      "Sandalen",
+      "ein Top"
+    ]
+  },
+  {
+    "id": "a2-12",
+    "level": "A2",
+    "skill": "vocabulary",
+    "question": "Ich ___ mich sehr für Musik.",
+    "correct": "interessiere",
+    "wrong": [
+      "freue",
+      "ärgere",
+      "erinnere"
+    ]
+  },
+  {
+    "id": "a2-13",
+    "level": "A2",
+    "skill": "reading",
+    "text": "Liebe Anna, vielen Dank für deine Einladung! Leider kann ich am Samstag nicht zu deiner Party kommen, weil meine Eltern zu Besuch kommen. Können wir uns nächste Woche zum Kaffee treffen? Liebe Grüße, Tom",
+    "question": "Warum kommt Tom nicht zur Party?",
+    "correct": "Seine Eltern besuchen ihn.",
+    "wrong": [
+      "Er ist krank.",
+      "Er muss arbeiten.",
+      "Er hat keine Lust."
+    ]
+  },
+  {
+    "id": "a2-14",
+    "level": "A2",
+    "skill": "reading",
+    "text": "Liebe Anna, vielen Dank für deine Einladung! Leider kann ich am Samstag nicht zu deiner Party kommen, weil meine Eltern zu Besuch kommen. Können wir uns nächste Woche zum Kaffee treffen? Liebe Grüße, Tom",
+    "question": "Was schlägt Tom vor?",
+    "correct": "Sich nächste Woche zu treffen.",
+    "wrong": [
+      "Die Party zu verschieben.",
+      "Seine Eltern mitzubringen.",
+      "Am Samstag anzurufen."
+    ]
+  },
+  {
+    "id": "a2-15",
+    "level": "A2",
+    "skill": "reading",
+    "text": "Achtung, Reisende nach München: Der ICE 581 fährt heute nicht von Gleis 7, sondern von Gleis 12 ab. Wir bitten um Entschuldigung.",
+    "question": "Was ist das Problem?",
+    "correct": "Der Zug fährt von einem anderen Gleis ab.",
+    "wrong": [
+      "Der Zug fällt aus.",
+      "Der Zug hat Verspätung.",
+      "Der Zug fährt nicht nach München."
+    ]
+  },
+  {
+    "id": "b1-01",
+    "level": "B1",
+    "skill": "grammar",
+    "question": "Ich weiß nicht, ___ er morgen kommt.",
+    "correct": "ob",
+    "wrong": [
+      "wenn",
+      "als",
+      "damit"
+    ]
+  },
+  {
+    "id": "b1-02",
+    "level": "B1",
+    "skill": "grammar",
+    "question": "Das ist der Mann, ___ ich gestern geholfen habe.",
+    "correct": "dem",
+    "wrong": [
+      "den",
+      "der",
+      "dessen"
+    ]
+  },
+  {
+    "id": "b1-03",
+    "level": "B1",
+    "skill": "grammar",
+    "question": "Wenn ich mehr Zeit ___, würde ich mehr reisen.",
+    "correct": "hätte",
+    "wrong": [
+      "habe",
+      "hatte",
+      "gehabt"
+    ]
+  },
+  {
+    "id": "b1-04",
+    "level": "B1",
+    "skill": "grammar",
+    "question": "Das Haus wurde 1900 ___.",
+    "correct": "gebaut",
+    "wrong": [
+      "bauen",
+      "baute",
+      "gebaute"
+    ]
+  },
+  {
+    "id": "b1-05",
+    "level": "B1",
+    "skill": "grammar",
+    "question": "Ich freue mich schon ___ das Wochenende.",
+    "correct": "auf",
+    "wrong": [
+      "über",
+      "an",
+      "für"
+    ]
+  },
+  {
+    "id": "b1-06",
+    "level": "B1",
+    "skill": "grammar",
+    "question": "___ ich gestern nach Hause kam, war niemand da.",
+    "correct": "Als",
+    "wrong": [
+      "Wenn",
+      "Wann",
+      "Ob"
+    ]
+  },
+  {
+    "id": "b1-07",
+    "level": "B1",
+    "skill": "grammar",
+    "question": "Trotz ___ Regens gingen wir spazieren.",
+    "correct": "des",
+    "wrong": [
+      "dem",
+      "den",
+      "der"
+    ]
+  },
+  {
+    "id": "b1-08",
+    "level": "B1",
+    "skill": "vocabulary",
+    "question": "Ich bin krank und muss den Termin leider ___.",
+    "correct": "absagen",
+    "wrong": [
+      "ansagen",
+      "aussagen",
+      "zusagen"
+    ]
+  },
+  {
+    "id": "b1-09",
+    "level": "B1",
+    "skill": "vocabulary",
+    "question": "Kannst du mir einen ___ geben? Ich weiß nicht, was ich tun soll.",
+    "correct": "Rat",
+    "wrong": [
+      "Rad",
+      "Rest",
+      "Rand"
+    ]
+  },
+  {
+    "id": "b1-10",
+    "level": "B1",
+    "skill": "vocabulary",
+    "question": "Das Gegenteil von „billig“ ist ___.",
+    "correct": "teuer",
+    "wrong": [
+      "günstig",
+      "preiswert",
+      "sparsam"
+    ]
+  },
+  {
+    "id": "b1-11",
+    "level": "B1",
+    "skill": "vocabulary",
+    "question": "Er hat die Prüfung ___ – mit einer sehr guten Note.",
+    "correct": "bestanden",
+    "wrong": [
+      "verstanden",
+      "entstanden",
+      "gestanden"
+    ]
+  },
+  {
+    "id": "b1-12",
+    "level": "B1",
+    "skill": "vocabulary",
+    "question": "Ich habe mich beim Kellner ___ das kalte Essen beschwert.",
+    "correct": "über",
+    "wrong": [
+      "auf",
+      "für",
+      "von"
+    ]
+  },
+  {
+    "id": "b1-13",
+    "level": "B1",
+    "skill": "reading",
+    "text": "Immer mehr Menschen arbeiten von zu Hause aus. Viele schätzen die Flexibilität und sparen sich den Weg ins Büro. Kritiker warnen jedoch, dass der Kontakt zu Kollegen fehlt und Arbeit und Freizeit schwerer zu trennen sind.",
+    "question": "Was ist laut Text ein Nachteil des Homeoffice?",
+    "correct": "Arbeit und Freizeit lassen sich schwerer trennen.",
+    "wrong": [
+      "Der Weg zur Arbeit ist länger.",
+      "Man ist weniger flexibel.",
+      "Man verdient weniger."
+    ]
+  },
+  {
+    "id": "b1-14",
+    "level": "B1",
+    "skill": "reading",
+    "text": "Immer mehr Menschen arbeiten von zu Hause aus. Viele schätzen die Flexibilität und sparen sich den Weg ins Büro. Kritiker warnen jedoch, dass der Kontakt zu Kollegen fehlt und Arbeit und Freizeit schwerer zu trennen sind.",
+    "question": "Was bedeutet „schätzen“ im Text?",
+    "correct": "gut finden",
+    "wrong": [
+      "berechnen",
+      "vermuten",
+      "kritisieren"
+    ]
+  },
+  {
+    "id": "b1-15",
+    "level": "B1",
+    "skill": "reading",
+    "text": "Sehr geehrte Damen und Herren, am 3. Mai habe ich bei Ihnen einen Staubsauger bestellt. Leider funktioniert das Gerät nicht. Ich bitte Sie, mir das Geld zurückzuerstatten oder ein neues Gerät zu schicken.",
+    "question": "Was möchte die Person?",
+    "correct": "Ihr Geld zurück oder ein neues Gerät.",
+    "wrong": [
+      "Einen zweiten Staubsauger kaufen.",
+      "Einen Termin für eine Reparatur.",
+      "Informationen über neue Produkte."
+    ]
+  },
+  {
+    "id": "b2-01",
+    "level": "B2",
+    "skill": "grammar",
+    "question": "Er tut so, als ob er alles ___.",
+    "correct": "wüsste",
+    "wrong": [
+      "weiß",
+      "gewusst",
+      "wissen"
+    ]
+  },
+  {
+    "id": "b2-02",
+    "level": "B2",
+    "skill": "grammar",
+    "question": "Das ist die Kollegin, ___ Vorschlag angenommen wurde.",
+    "correct": "deren",
+    "wrong": [
+      "dessen",
+      "die",
+      "der"
+    ]
+  },
+  {
+    "id": "b2-03",
+    "level": "B2",
+    "skill": "grammar",
+    "question": "___ der schlechten Wetterlage wurde das Konzert abgesagt.",
+    "correct": "Aufgrund",
+    "wrong": [
+      "Obwohl",
+      "Trotzdem",
+      "Damit"
+    ]
+  },
+  {
+    "id": "b2-04",
+    "level": "B2",
+    "skill": "grammar",
+    "question": "Der Bericht muss bis morgen ___ werden.",
+    "correct": "fertiggestellt",
+    "wrong": [
+      "fertigstellen",
+      "fertiggestellten",
+      "fertigstellt"
+    ]
+  },
+  {
+    "id": "b2-05",
+    "level": "B2",
+    "skill": "grammar",
+    "question": "Je mehr man übt, ___ besser spricht man.",
+    "correct": "desto",
+    "wrong": [
+      "als",
+      "so",
+      "wie"
+    ]
+  },
+  {
+    "id": "b2-06",
+    "level": "B2",
+    "skill": "grammar",
+    "question": "Er behauptet, er ___ gestern krank gewesen.",
+    "correct": "sei",
+    "wrong": [
+      "ist",
+      "habe",
+      "wird"
+    ]
+  },
+  {
+    "id": "b2-07",
+    "level": "B2",
+    "skill": "grammar",
+    "question": "Anstatt zu lernen, ___ er den ganzen Tag ferngesehen.",
+    "correct": "hat",
+    "wrong": [
+      "ist",
+      "wird",
+      "habe"
+    ]
+  },
+  {
+    "id": "b2-08",
+    "level": "B2",
+    "skill": "vocabulary",
+    "question": "Die Firma hat beschlossen, 200 Stellen ___.",
+    "correct": "abzubauen",
+    "wrong": [
+      "aufzubauen",
+      "umzubauen",
+      "auszubauen"
+    ]
+  },
+  {
+    "id": "b2-09",
+    "level": "B2",
+    "skill": "vocabulary",
+    "question": "Sie hat eine wichtige Entscheidung ___.",
+    "correct": "getroffen",
+    "wrong": [
+      "gemacht",
+      "gestellt",
+      "genommen"
+    ]
+  },
+  {
+    "id": "b2-10",
+    "level": "B2",
+    "skill": "vocabulary",
+    "question": "Das Projekt wurde im März erfolgreich ___.",
+    "correct": "abgeschlossen",
+    "wrong": [
+      "geschlossen",
+      "verschlossen",
+      "eingeschlossen"
+    ]
+  },
+  {
+    "id": "b2-11",
+    "level": "B2",
+    "skill": "vocabulary",
+    "question": "Wir müssen das Problem endlich in ___ nehmen.",
+    "correct": "Angriff",
+    "wrong": [
+      "Anspruch",
+      "Betrieb",
+      "Ordnung"
+    ]
+  },
+  {
+    "id": "b2-12",
+    "level": "B2",
+    "skill": "vocabulary",
+    "question": "„Etwas unter den Teppich kehren“ bedeutet …",
+    "correct": "ein Problem verheimlichen",
+    "wrong": [
+      "gründlich putzen",
+      "etwas Wertvolles verstecken",
+      "ein Geschenk vorbereiten"
+    ]
+  },
+  {
+    "id": "b2-13",
+    "level": "B2",
+    "skill": "reading",
+    "text": "Die Digitalisierung verändert die Arbeitswelt grundlegend. Während einfache, wiederkehrende Tätigkeiten zunehmend automatisiert werden, steigt die Nachfrage nach Fachkräften mit digitalen Kompetenzen. Experten fordern daher, lebenslanges Lernen stärker zu fördern.",
+    "question": "Welche Schlussfolgerung ziehen die Experten?",
+    "correct": "Lebenslanges Lernen sollte stärker gefördert werden.",
+    "wrong": [
+      "Die Automatisierung sollte gestoppt werden.",
+      "Einfache Tätigkeiten werden wichtiger.",
+      "Fachkräfte werden weniger gebraucht."
+    ]
+  },
+  {
+    "id": "b2-14",
+    "level": "B2",
+    "skill": "reading",
+    "text": "Die Digitalisierung verändert die Arbeitswelt grundlegend. Während einfache, wiederkehrende Tätigkeiten zunehmend automatisiert werden, steigt die Nachfrage nach Fachkräften mit digitalen Kompetenzen. Experten fordern daher, lebenslanges Lernen stärker zu fördern.",
+    "question": "Was bedeutet „zunehmend“ im Text?",
+    "correct": "immer mehr",
+    "wrong": [
+      "plötzlich",
+      "kaum",
+      "manchmal"
+    ]
+  },
+  {
+    "id": "b2-15",
+    "level": "B2",
+    "skill": "reading",
+    "text": "Obwohl die Stadt den Ausbau der Radwege seit Jahren verspricht, hat sich bislang wenig getan. Anwohner kritisieren, dass das Geld lieber in neue Parkhäuser fließe.",
+    "question": "Welche Haltung haben die Anwohner?",
+    "correct": "Sie sind mit den Prioritäten der Stadt unzufrieden.",
+    "wrong": [
+      "Sie wünschen sich mehr Parkhäuser.",
+      "Sie loben den schnellen Ausbau der Radwege.",
+      "Sie haben dazu keine Meinung."
+    ]
+  },
+  {
+    "id": "c1-01",
+    "level": "C1",
+    "skill": "grammar",
+    "question": "Hätte ich das gewusst, ___ ich anders entschieden.",
+    "correct": "hätte",
+    "wrong": [
+      "wäre",
+      "habe",
+      "würde"
+    ]
+  },
+  {
+    "id": "c1-02",
+    "level": "C1",
+    "skill": "grammar",
+    "question": "Dem Antrag konnte leider nicht ___ werden.",
+    "correct": "stattgegeben",
+    "wrong": [
+      "stattgeben",
+      "stattgab",
+      "gestattgegeben"
+    ]
+  },
+  {
+    "id": "c1-03",
+    "level": "C1",
+    "skill": "grammar",
+    "question": "Die von der Regierung ___ Maßnahmen stoßen auf Kritik.",
+    "correct": "beschlossenen",
+    "wrong": [
+      "beschließenden",
+      "beschlossen",
+      "beschließen"
+    ]
+  },
+  {
+    "id": "c1-04",
+    "level": "C1",
+    "skill": "grammar",
+    "question": "Die Lage ist zu ernst, ___ man sie ignorieren könnte.",
+    "correct": "als dass",
+    "wrong": [
+      "dass",
+      "sodass",
+      "damit"
+    ]
+  },
+  {
+    "id": "c1-05",
+    "level": "C1",
+    "skill": "grammar",
+    "question": "Ungeachtet ___ Bedenken wurde das Projekt fortgesetzt.",
+    "correct": "der",
+    "wrong": [
+      "den",
+      "die",
+      "dem"
+    ]
+  },
+  {
+    "id": "c1-06",
+    "level": "C1",
+    "skill": "grammar",
+    "question": "Kaum ___ er angekommen, klingelte das Telefon.",
+    "correct": "war",
+    "wrong": [
+      "ist",
+      "hatte",
+      "wurde"
+    ]
+  },
+  {
+    "id": "c1-07",
+    "level": "C1",
+    "skill": "grammar",
+    "question": "Er gab vor, den Brief nie ___ zu haben.",
+    "correct": "erhalten",
+    "wrong": [
+      "erhaltet",
+      "erhielt",
+      "erhält"
+    ]
+  },
+  {
+    "id": "c1-08",
+    "level": "C1",
+    "skill": "vocabulary",
+    "question": "Seine Argumentation ist nicht ___ – sie enthält mehrere Widersprüche.",
+    "correct": "schlüssig",
+    "wrong": [
+      "schlüpfrig",
+      "schlicht",
+      "schläfrig"
+    ]
+  },
+  {
+    "id": "c1-09",
+    "level": "C1",
+    "skill": "vocabulary",
+    "question": "Die Verhandlungen sind ins ___ geraten.",
+    "correct": "Stocken",
+    "wrong": [
+      "Stolpern",
+      "Stehen",
+      "Stürzen"
+    ]
+  },
+  {
+    "id": "c1-10",
+    "level": "C1",
+    "skill": "vocabulary",
+    "question": "„Etwas in Kauf nehmen“ bedeutet …",
+    "correct": "einen Nachteil akzeptieren",
+    "wrong": [
+      "etwas günstig kaufen",
+      "etwas zurückgeben",
+      "einen Vertrag abschließen"
+    ]
+  },
+  {
+    "id": "c1-11",
+    "level": "C1",
+    "skill": "vocabulary",
+    "question": "Die Firma ___ ihre Ansprüche vor Gericht durch.",
+    "correct": "setzte",
+    "wrong": [
+      "stellte",
+      "legte",
+      "führte"
+    ]
+  },
+  {
+    "id": "c1-12",
+    "level": "C1",
+    "skill": "vocabulary",
+    "question": "Ein „Zugeständnis“ ist …",
+    "correct": "ein Entgegenkommen in einer Verhandlung",
+    "wrong": [
+      "ein Geständnis vor Gericht",
+      "eine Zugverbindung",
+      "eine Warenlieferung"
+    ]
+  },
+  {
+    "id": "c1-13",
+    "level": "C1",
+    "skill": "reading",
+    "text": "Die Annahme, dass mehr Auswahl Konsumenten automatisch glücklicher mache, gilt inzwischen als widerlegt. Studien zeigen, dass eine Überfülle an Optionen eher zu Entscheidungslähmung und nachträglicher Unzufriedenheit führt – ein Phänomen, das in der Psychologie als „Paradox of Choice“ bekannt ist.",
+    "question": "Welche Aussage entspricht dem Text?",
+    "correct": "Zu viele Wahlmöglichkeiten können unzufrieden machen.",
+    "wrong": [
+      "Mehr Auswahl macht Konsumenten glücklicher.",
+      "Bei großer Auswahl entscheidet man schneller.",
+      "Die Psychologie hat das Phänomen noch nicht untersucht."
+    ]
+  },
+  {
+    "id": "c1-14",
+    "level": "C1",
+    "skill": "reading",
+    "text": "Die Annahme, dass mehr Auswahl Konsumenten automatisch glücklicher mache, gilt inzwischen als widerlegt. Studien zeigen, dass eine Überfülle an Optionen eher zu Entscheidungslähmung und nachträglicher Unzufriedenheit führt – ein Phänomen, das in der Psychologie als „Paradox of Choice“ bekannt ist.",
+    "question": "Was bedeutet „widerlegt“ im Text?",
+    "correct": "als falsch bewiesen",
+    "wrong": [
+      "bestätigt",
+      "noch nicht untersucht",
+      "umstritten"
+    ]
+  },
+  {
+    "id": "c1-15",
+    "level": "C1",
+    "skill": "reading",
+    "text": "Wer glaubt, Mehrsprachigkeit sei ein Hindernis für die kindliche Entwicklung, irrt. Zwar kann es anfangs zu Vermischungen der Sprachen kommen, doch langfristig profitieren mehrsprachige Kinder häufig von einer höheren kognitiven Flexibilität.",
+    "question": "Wie bewertet der Autor Mehrsprachigkeit bei Kindern?",
+    "correct": "überwiegend positiv",
+    "wrong": [
+      "eindeutig negativ",
+      "als Hindernis",
+      "neutral, ohne Wertung"
+    ]
+  }
+]

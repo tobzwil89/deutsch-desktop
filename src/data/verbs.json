@@ -1,0 +1,2123 @@
+[
+  {
+    "id": "sein",
+    "infinitive": "sein",
+    "en": "to be",
+    "type": "auxiliary",
+    "separable": false,
+    "auxiliary": "sein",
+    "participle": "gewesen",
+    "present": {
+      "ich": "bin",
+      "du": "bist",
+      "er": "ist",
+      "wir": "sind",
+      "ihr": "seid",
+      "sie": "sind"
+    },
+    "preterite": {
+      "ich": "war",
+      "du": "warst",
+      "er": "war",
+      "wir": "waren",
+      "ihr": "wart",
+      "sie": "waren"
+    },
+    "perfect": {
+      "ich": "bin gewesen",
+      "du": "bist gewesen",
+      "er": "ist gewesen",
+      "wir": "sind gewesen",
+      "ihr": "seid gewesen",
+      "sie": "sind gewesen"
+    }
+  },
+  {
+    "id": "haben",
+    "infinitive": "haben",
+    "en": "to have",
+    "type": "auxiliary",
+    "separable": false,
+    "auxiliary": "haben",
+    "participle": "gehabt",
+    "present": {
+      "ich": "habe",
+      "du": "hast",
+      "er": "hat",
+      "wir": "haben",
+      "ihr": "habt",
+      "sie": "haben"
+    },
+    "preterite": {
+      "ich": "hatte",
+      "du": "hattest",
+      "er": "hatte",
+      "wir": "hatten",
+      "ihr": "hattet",
+      "sie": "hatten"
+    },
+    "perfect": {
+      "ich": "habe gehabt",
+      "du": "hast gehabt",
+      "er": "hat gehabt",
+      "wir": "haben gehabt",
+      "ihr": "habt gehabt",
+      "sie": "haben gehabt"
+    }
+  },
+  {
+    "id": "werden",
+    "infinitive": "werden",
+    "en": "to become",
+    "type": "auxiliary",
+    "separable": false,
+    "auxiliary": "sein",
+    "participle": "geworden",
+    "present": {
+      "ich": "werde",
+      "du": "wirst",
+      "er": "wird",
+      "wir": "werden",
+      "ihr": "werdet",
+      "sie": "werden"
+    },
+    "preterite": {
+      "ich": "wurde",
+      "du": "wurdest",
+      "er": "wurde",
+      "wir": "wurden",
+      "ihr": "wurdet",
+      "sie": "wurden"
+    },
+    "perfect": {
+      "ich": "bin geworden",
+      "du": "bist geworden",
+      "er": "ist geworden",
+      "wir": "sind geworden",
+      "ihr": "seid geworden",
+      "sie": "sind geworden"
+    }
+  },
+  {
+    "id": "koennen",
+    "infinitive": "können",
+    "en": "can, to be able to",
+    "type": "modal",
+    "separable": false,
+    "auxiliary": "haben",
+    "participle": "gekonnt",
+    "present": {
+      "ich": "kann",
+      "du": "kannst",
+      "er": "kann",
+      "wir": "können",
+      "ihr": "könnt",
+      "sie": "können"
+    },
+    "preterite": {
+      "ich": "konnte",
+      "du": "konntest",
+      "er": "konnte",
+      "wir": "konnten",
+      "ihr": "konntet",
+      "sie": "konnten"
+    },
+    "perfect": {
+      "ich": "habe gekonnt",
+      "du": "hast gekonnt",
+      "er": "hat gekonnt",
+      "wir": "haben gekonnt",
+      "ihr": "habt gekonnt",
+      "sie": "haben gekonnt"
+    },
+    "note": "In everyday speech modal verbs mostly use the Präteritum. The Perfekt with a second verb uses two infinitives: „Ich habe arbeiten müssen.“"
+  },
+  {
+    "id": "muessen",
+    "infinitive": "müssen",
+    "en": "must, to have to",
+    "type": "modal",
+    "separable": false,
+    "auxiliary": "haben",
+    "participle": "gemusst",
+    "present": {
+      "ich": "muss",
+      "du": "musst",
+      "er": "muss",
+      "wir": "müssen",
+      "ihr": "müsst",
+      "sie": "müssen"
+    },
+    "preterite": {
+      "ich": "musste",
+      "du": "musstest",
+      "er": "musste",
+      "wir": "mussten",
+      "ihr": "musstet",
+      "sie": "mussten"
+    },
+    "perfect": {
+      "ich": "habe gemusst",
+      "du": "hast gemusst",
+      "er": "hat gemusst",
+      "wir": "haben gemusst",
+      "ihr": "habt gemusst",
+      "sie": "haben gemusst"
+    },
+    "note": "In everyday speech modal verbs mostly use the Präteritum. The Perfekt with a second verb uses two infinitives: „Ich habe arbeiten müssen.“"
+  },
+  {
+    "id": "wollen",
+    "infinitive": "wollen",
+    "en": "to want",
+    "type": "modal",
+    "separable": false,
+    "auxiliary": "haben",
+    "participle": "gewollt",
+    "present": {
+      "ich": "will",
+      "du": "willst",
+      "er": "will",
+      "wir": "wollen",
+      "ihr": "wollt",
+      "sie": "wollen"
+    },
+    "preterite": {
+      "ich": "wollte",
+      "du": "wolltest",
+      "er": "wollte",
+      "wir": "wollten",
+      "ihr": "wolltet",
+      "sie": "wollten"
+    },
+    "perfect": {
+      "ich": "habe gewollt",
+      "du": "hast gewollt",
+      "er": "hat gewollt",
+      "wir": "haben gewollt",
+      "ihr": "habt gewollt",
+      "sie": "haben gewollt"
+    },
+    "note": "In everyday speech modal verbs mostly use the Präteritum. The Perfekt with a second verb uses two infinitives: „Ich habe arbeiten müssen.“"
+  },
+  {
+    "id": "sollen",
+    "infinitive": "sollen",
+    "en": "should, to be supposed to",
+    "type": "modal",
+    "separable": false,
+    "auxiliary": "haben",
+    "participle": "gesollt",
+    "present": {
+      "ich": "soll",
+      "du": "sollst",
+      "er": "soll",
+      "wir": "sollen",
+      "ihr": "sollt",
+      "sie": "sollen"
+    },
+    "preterite": {
+      "ich": "sollte",
+      "du": "solltest",
+      "er": "sollte",
+      "wir": "sollten",
+      "ihr": "solltet",
+      "sie": "sollten"
+    },
+    "perfect": {
+      "ich": "habe gesollt",
+      "du": "hast gesollt",
+      "er": "hat gesollt",
+      "wir": "haben gesollt",
+      "ihr": "habt gesollt",
+      "sie": "haben gesollt"
+    },
+    "note": "In everyday speech modal verbs mostly use the Präteritum. The Perfekt with a second verb uses two infinitives: „Ich habe arbeiten müssen.“"
+  },
+  {
+    "id": "duerfen",
+    "infinitive": "dürfen",
+    "en": "may, to be allowed to",
+    "type": "modal",
+    "separable": false,
+    "auxiliary": "haben",
+    "participle": "gedurft",
+    "present": {
+      "ich": "darf",
+      "du": "darfst",
+      "er": "darf",
+      "wir": "dürfen",
+      "ihr": "dürft",
+      "sie": "dürfen"
+    },
+    "preterite": {
+      "ich": "durfte",
+      "du": "durftest",
+      "er": "durfte",
+      "wir": "durften",
+      "ihr": "durftet",
+      "sie": "durften"
+    },
+    "perfect": {
+      "ich": "habe gedurft",
+      "du": "hast gedurft",
+      "er": "hat gedurft",
+      "wir": "haben gedurft",
+      "ihr": "habt gedurft",
+      "sie": "haben gedurft"
+    },
+    "note": "In everyday speech modal verbs mostly use the Präteritum. The Perfekt with a second verb uses two infinitives: „Ich habe arbeiten müssen.“"
+  },
+  {
+    "id": "moegen",
+    "infinitive": "mögen",
+    "en": "to like",
+    "type": "modal",
+    "separable": false,
+    "auxiliary": "haben",
+    "participle": "gemocht",
+    "present": {
+      "ich": "mag",
+      "du": "magst",
+      "er": "mag",
+      "wir": "mögen",
+      "ihr": "mögt",
+      "sie": "mögen"
+    },
+    "preterite": {
+      "ich": "mochte",
+      "du": "mochtest",
+      "er": "mochte",
+      "wir": "mochten",
+      "ihr": "mochtet",
+      "sie": "mochten"
+    },
+    "perfect": {
+      "ich": "habe gemocht",
+      "du": "hast gemocht",
+      "er": "hat gemocht",
+      "wir": "haben gemocht",
+      "ihr": "habt gemocht",
+      "sie": "haben gemocht"
+    }
+  },
+  {
+    "id": "gehen",
+    "infinitive": "gehen",
+    "en": "to go, to walk",
+    "type": "irregular",
+    "separable": false,
+    "auxiliary": "sein",
+    "participle": "gegangen",
+    "present": {
+      "ich": "gehe",
+      "du": "gehst",
+      "er": "geht",
+      "wir": "gehen",
+      "ihr": "geht",
+      "sie": "gehen"
+    },
+    "preterite": {
+      "ich": "ging",
+      "du": "gingst",
+      "er": "ging",
+      "wir": "gingen",
+      "ihr": "gingt",
+      "sie": "gingen"
+    },
+    "perfect": {
+      "ich": "bin gegangen",
+      "du": "bist gegangen",
+      "er": "ist gegangen",
+      "wir": "sind gegangen",
+      "ihr": "seid gegangen",
+      "sie": "sind gegangen"
+    }
+  },
+  {
+    "id": "kommen",
+    "infinitive": "kommen",
+    "en": "to come",
+    "type": "irregular",
+    "separable": false,
+    "auxiliary": "sein",
+    "participle": "gekommen",
+    "present": {
+      "ich": "komme",
+      "du": "kommst",
+      "er": "kommt",
+      "wir": "kommen",
+      "ihr": "kommt",
+      "sie": "kommen"
+    },
+    "preterite": {
+      "ich": "kam",
+      "du": "kamst",
+      "er": "kam",
+      "wir": "kamen",
+      "ihr": "kamt",
+      "sie": "kamen"
+    },
+    "perfect": {
+      "ich": "bin gekommen",
+      "du": "bist gekommen",
+      "er": "ist gekommen",
+      "wir": "sind gekommen",
+      "ihr": "seid gekommen",
+      "sie": "sind gekommen"
+    }
+  },
+  {
+    "id": "fahren",
+    "infinitive": "fahren",
+    "en": "to drive, to go (by vehicle)",
+    "type": "irregular",
+    "separable": false,
+    "auxiliary": "sein",
+    "participle": "gefahren",
+    "present": {
+      "ich": "fahre",
+      "du": "fährst",
+      "er": "fährt",
+      "wir": "fahren",
+      "ihr": "fahrt",
+      "sie": "fahren"
+    },
+    "preterite": {
+      "ich": "fuhr",
+      "du": "fuhrst",
+      "er": "fuhr",
+      "wir": "fuhren",
+      "ihr": "fuhrt",
+      "sie": "fuhren"
+    },
+    "perfect": {
+      "ich": "bin gefahren",
+      "du": "bist gefahren",
+      "er": "ist gefahren",
+      "wir": "sind gefahren",
+      "ihr": "seid gefahren",
+      "sie": "sind gefahren"
+    },
+    "note": "With a direct object the Perfekt uses haben: „Ich habe das Auto gefahren.“"
+  },
+  {
+    "id": "sehen",
+    "infinitive": "sehen",
+    "en": "to see",
+    "type": "irregular",
+    "separable": false,
+    "auxiliary": "haben",
+    "participle": "gesehen",
+    "present": {
+      "ich": "sehe",
+      "du": "siehst",
+      "er": "sieht",
+      "wir": "sehen",
+      "ihr": "seht",
+      "sie": "sehen"
+    },
+    "preterite": {
+      "ich": "sah",
+      "du": "sahst",
+      "er": "sah",
+      "wir": "sahen",
+      "ihr": "saht",
+      "sie": "sahen"
+    },
+    "perfect": {
+      "ich": "habe gesehen",
+      "du": "hast gesehen",
+      "er": "hat gesehen",
+      "wir": "haben gesehen",
+      "ihr": "habt gesehen",
+      "sie": "haben gesehen"
+    }
+  },
+  {
+    "id": "essen",
+    "infinitive": "essen",
+    "en": "to eat",
+    "type": "irregular",
+    "separable": false,
+    "auxiliary": "haben",
+    "participle": "gegessen",
+    "present": {
+      "ich": "esse",
+      "du": "isst",
+      "er": "isst",
+      "wir": "essen",
+      "ihr": "esst",
+      "sie": "essen"
+    },
+    "preterite": {
+      "ich": "aß",
+      "du": "aßest|aßt",
+      "er": "aß",
+      "wir": "aßen",
+      "ihr": "aßt",
+      "sie": "aßen"
+    },
+    "perfect": {
+      "ich": "habe gegessen",
+      "du": "hast gegessen",
+      "er": "hat gegessen",
+      "wir": "haben gegessen",
+      "ihr": "habt gegessen",
+      "sie": "haben gegessen"
+    }
+  },
+  {
+    "id": "trinken",
+    "infinitive": "trinken",
+    "en": "to drink",
+    "type": "irregular",
+    "separable": false,
+    "auxiliary": "haben",
+    "participle": "getrunken",
+    "present": {
+      "ich": "trinke",
+      "du": "trinkst",
+      "er": "trinkt",
+      "wir": "trinken",
+      "ihr": "trinkt",
+      "sie": "trinken"
+    },
+    "preterite": {
+      "ich": "trank",
+      "du": "trankst",
+      "er": "trank",
+      "wir": "tranken",
+      "ihr": "trankt",
+      "sie": "tranken"
+    },
+    "perfect": {
+      "ich": "habe getrunken",
+      "du": "hast getrunken",
+      "er": "hat getrunken",
+      "wir": "haben getrunken",
+      "ihr": "habt getrunken",
+      "sie": "haben getrunken"
+    }
+  },
+  {
+    "id": "geben",
+    "infinitive": "geben",
+    "en": "to give",
+    "type": "irregular",
+    "separable": false,
+    "auxiliary": "haben",
+    "participle": "gegeben",
+    "present": {
+      "ich": "gebe",
+      "du": "gibst",
+      "er": "gibt",
+      "wir": "geben",
+      "ihr": "gebt",
+      "sie": "geben"
+    },
+    "preterite": {
+      "ich": "gab",
+      "du": "gabst",
+      "er": "gab",
+      "wir": "gaben",
+      "ihr": "gabt",
+      "sie": "gaben"
+    },
+    "perfect": {
+      "ich": "habe gegeben",
+      "du": "hast gegeben",
+      "er": "hat gegeben",
+      "wir": "haben gegeben",
+      "ihr": "habt gegeben",
+      "sie": "haben gegeben"
+    }
+  },
+  {
+    "id": "nehmen",
+    "infinitive": "nehmen",
+    "en": "to take",
+    "type": "irregular",
+    "separable": false,
+    "auxiliary": "haben",
+    "participle": "genommen",
+    "present": {
+      "ich": "nehme",
+      "du": "nimmst",
+      "er": "nimmt",
+      "wir": "nehmen",
+      "ihr": "nehmt",
+      "sie": "nehmen"
+    },
+    "preterite": {
+      "ich": "nahm",
+      "du": "nahmst",
+      "er": "nahm",
+      "wir": "nahmen",
+      "ihr": "nahmt",
+      "sie": "nahmen"
+    },
+    "perfect": {
+      "ich": "habe genommen",
+      "du": "hast genommen",
+      "er": "hat genommen",
+      "wir": "haben genommen",
+      "ihr": "habt genommen",
+      "sie": "haben genommen"
+    }
+  },
+  {
+    "id": "sprechen",
+    "infinitive": "sprechen",
+    "en": "to speak",
+    "type": "irregular",
+    "separable": false,
+    "auxiliary": "haben",
+    "participle": "gesprochen",
+    "present": {
+      "ich": "spreche",
+      "du": "sprichst",
+      "er": "spricht",
+      "wir": "sprechen",
+      "ihr": "sprecht",
+      "sie": "sprechen"
+    },
+    "preterite": {
+      "ich": "sprach",
+      "du": "sprachst",
+      "er": "sprach",
+      "wir": "sprachen",
+      "ihr": "spracht",
+      "sie": "sprachen"
+    },
+    "perfect": {
+      "ich": "habe gesprochen",
+      "du": "hast gesprochen",
+      "er": "hat gesprochen",
+      "wir": "haben gesprochen",
+      "ihr": "habt gesprochen",
+      "sie": "haben gesprochen"
+    }
+  },
+  {
+    "id": "lesen",
+    "infinitive": "lesen",
+    "en": "to read",
+    "type": "irregular",
+    "separable": false,
+    "auxiliary": "haben",
+    "participle": "gelesen",
+    "present": {
+      "ich": "lese",
+      "du": "liest",
+      "er": "liest",
+      "wir": "lesen",
+      "ihr": "lest",
+      "sie": "lesen"
+    },
+    "preterite": {
+      "ich": "las",
+      "du": "lasest|last",
+      "er": "las",
+      "wir": "lasen",
+      "ihr": "last",
+      "sie": "lasen"
+    },
+    "perfect": {
+      "ich": "habe gelesen",
+      "du": "hast gelesen",
+      "er": "hat gelesen",
+      "wir": "haben gelesen",
+      "ihr": "habt gelesen",
+      "sie": "haben gelesen"
+    }
+  },
+  {
+    "id": "schlafen",
+    "infinitive": "schlafen",
+    "en": "to sleep",
+    "type": "irregular",
+    "separable": false,
+    "auxiliary": "haben",
+    "participle": "geschlafen",
+    "present": {
+      "ich": "schlafe",
+      "du": "schläfst",
+      "er": "schläft",
+      "wir": "schlafen",
+      "ihr": "schlaft",
+      "sie": "schlafen"
+    },
+    "preterite": {
+      "ich": "schlief",
+      "du": "schliefst",
+      "er": "schlief",
+      "wir": "schliefen",
+      "ihr": "schlieft",
+      "sie": "schliefen"
+    },
+    "perfect": {
+      "ich": "habe geschlafen",
+      "du": "hast geschlafen",
+      "er": "hat geschlafen",
+      "wir": "haben geschlafen",
+      "ihr": "habt geschlafen",
+      "sie": "haben geschlafen"
+    }
+  },
+  {
+    "id": "laufen",
+    "infinitive": "laufen",
+    "en": "to run, to walk",
+    "type": "irregular",
+    "separable": false,
+    "auxiliary": "sein",
+    "participle": "gelaufen",
+    "present": {
+      "ich": "laufe",
+      "du": "läufst",
+      "er": "läuft",
+      "wir": "laufen",
+      "ihr": "lauft",
+      "sie": "laufen"
+    },
+    "preterite": {
+      "ich": "lief",
+      "du": "liefst",
+      "er": "lief",
+      "wir": "liefen",
+      "ihr": "lieft",
+      "sie": "liefen"
+    },
+    "perfect": {
+      "ich": "bin gelaufen",
+      "du": "bist gelaufen",
+      "er": "ist gelaufen",
+      "wir": "sind gelaufen",
+      "ihr": "seid gelaufen",
+      "sie": "sind gelaufen"
+    }
+  },
+  {
+    "id": "finden",
+    "infinitive": "finden",
+    "en": "to find",
+    "type": "irregular",
+    "separable": false,
+    "auxiliary": "haben",
+    "participle": "gefunden",
+    "present": {
+      "ich": "finde",
+      "du": "findest",
+      "er": "findet",
+      "wir": "finden",
+      "ihr": "findet",
+      "sie": "finden"
+    },
+    "preterite": {
+      "ich": "fand",
+      "du": "fandest|fandst",
+      "er": "fand",
+      "wir": "fanden",
+      "ihr": "fandet",
+      "sie": "fanden"
+    },
+    "perfect": {
+      "ich": "habe gefunden",
+      "du": "hast gefunden",
+      "er": "hat gefunden",
+      "wir": "haben gefunden",
+      "ihr": "habt gefunden",
+      "sie": "haben gefunden"
+    }
+  },
+  {
+    "id": "schreiben",
+    "infinitive": "schreiben",
+    "en": "to write",
+    "type": "irregular",
+    "separable": false,
+    "auxiliary": "haben",
+    "participle": "geschrieben",
+    "present": {
+      "ich": "schreibe",
+      "du": "schreibst",
+      "er": "schreibt",
+      "wir": "schreiben",
+      "ihr": "schreibt",
+      "sie": "schreiben"
+    },
+    "preterite": {
+      "ich": "schrieb",
+      "du": "schriebst",
+      "er": "schrieb",
+      "wir": "schrieben",
+      "ihr": "schriebt",
+      "sie": "schrieben"
+    },
+    "perfect": {
+      "ich": "habe geschrieben",
+      "du": "hast geschrieben",
+      "er": "hat geschrieben",
+      "wir": "haben geschrieben",
+      "ihr": "habt geschrieben",
+      "sie": "haben geschrieben"
+    }
+  },
+  {
+    "id": "bleiben",
+    "infinitive": "bleiben",
+    "en": "to stay",
+    "type": "irregular",
+    "separable": false,
+    "auxiliary": "sein",
+    "participle": "geblieben",
+    "present": {
+      "ich": "bleibe",
+      "du": "bleibst",
+      "er": "bleibt",
+      "wir": "bleiben",
+      "ihr": "bleibt",
+      "sie": "bleiben"
+    },
+    "preterite": {
+      "ich": "blieb",
+      "du": "bliebst",
+      "er": "blieb",
+      "wir": "blieben",
+      "ihr": "bliebt",
+      "sie": "blieben"
+    },
+    "perfect": {
+      "ich": "bin geblieben",
+      "du": "bist geblieben",
+      "er": "ist geblieben",
+      "wir": "sind geblieben",
+      "ihr": "seid geblieben",
+      "sie": "sind geblieben"
+    }
+  },
+  {
+    "id": "wissen",
+    "infinitive": "wissen",
+    "en": "to know (a fact)",
+    "type": "irregular",
+    "separable": false,
+    "auxiliary": "haben",
+    "participle": "gewusst",
+    "present": {
+      "ich": "weiß",
+      "du": "weißt",
+      "er": "weiß",
+      "wir": "wissen",
+      "ihr": "wisst",
+      "sie": "wissen"
+    },
+    "preterite": {
+      "ich": "wusste",
+      "du": "wusstest",
+      "er": "wusste",
+      "wir": "wussten",
+      "ihr": "wusstet",
+      "sie": "wussten"
+    },
+    "perfect": {
+      "ich": "habe gewusst",
+      "du": "hast gewusst",
+      "er": "hat gewusst",
+      "wir": "haben gewusst",
+      "ihr": "habt gewusst",
+      "sie": "haben gewusst"
+    }
+  },
+  {
+    "id": "helfen",
+    "infinitive": "helfen",
+    "en": "to help",
+    "type": "irregular",
+    "separable": false,
+    "auxiliary": "haben",
+    "participle": "geholfen",
+    "present": {
+      "ich": "helfe",
+      "du": "hilfst",
+      "er": "hilft",
+      "wir": "helfen",
+      "ihr": "helft",
+      "sie": "helfen"
+    },
+    "preterite": {
+      "ich": "half",
+      "du": "halfst",
+      "er": "half",
+      "wir": "halfen",
+      "ihr": "halft",
+      "sie": "halfen"
+    },
+    "perfect": {
+      "ich": "habe geholfen",
+      "du": "hast geholfen",
+      "er": "hat geholfen",
+      "wir": "haben geholfen",
+      "ihr": "habt geholfen",
+      "sie": "haben geholfen"
+    }
+  },
+  {
+    "id": "treffen",
+    "infinitive": "treffen",
+    "en": "to meet",
+    "type": "irregular",
+    "separable": false,
+    "auxiliary": "haben",
+    "participle": "getroffen",
+    "present": {
+      "ich": "treffe",
+      "du": "triffst",
+      "er": "trifft",
+      "wir": "treffen",
+      "ihr": "trefft",
+      "sie": "treffen"
+    },
+    "preterite": {
+      "ich": "traf",
+      "du": "trafst",
+      "er": "traf",
+      "wir": "trafen",
+      "ihr": "traft",
+      "sie": "trafen"
+    },
+    "perfect": {
+      "ich": "habe getroffen",
+      "du": "hast getroffen",
+      "er": "hat getroffen",
+      "wir": "haben getroffen",
+      "ihr": "habt getroffen",
+      "sie": "haben getroffen"
+    }
+  },
+  {
+    "id": "vergessen",
+    "infinitive": "vergessen",
+    "en": "to forget",
+    "type": "irregular",
+    "separable": false,
+    "auxiliary": "haben",
+    "participle": "vergessen",
+    "present": {
+      "ich": "vergesse",
+      "du": "vergisst",
+      "er": "vergisst",
+      "wir": "vergessen",
+      "ihr": "vergesst",
+      "sie": "vergessen"
+    },
+    "preterite": {
+      "ich": "vergaß",
+      "du": "vergaßest|vergaßt",
+      "er": "vergaß",
+      "wir": "vergaßen",
+      "ihr": "vergaßt",
+      "sie": "vergaßen"
+    },
+    "perfect": {
+      "ich": "habe vergessen",
+      "du": "hast vergessen",
+      "er": "hat vergessen",
+      "wir": "haben vergessen",
+      "ihr": "habt vergessen",
+      "sie": "haben vergessen"
+    }
+  },
+  {
+    "id": "stehen",
+    "infinitive": "stehen",
+    "en": "to stand",
+    "type": "irregular",
+    "separable": false,
+    "auxiliary": "haben",
+    "participle": "gestanden",
+    "present": {
+      "ich": "stehe",
+      "du": "stehst",
+      "er": "steht",
+      "wir": "stehen",
+      "ihr": "steht",
+      "sie": "stehen"
+    },
+    "preterite": {
+      "ich": "stand",
+      "du": "standest|standst",
+      "er": "stand",
+      "wir": "standen",
+      "ihr": "standet",
+      "sie": "standen"
+    },
+    "perfect": {
+      "ich": "habe gestanden|bin gestanden",
+      "du": "hast gestanden|bist gestanden",
+      "er": "hat gestanden|ist gestanden",
+      "wir": "haben gestanden|sind gestanden",
+      "ihr": "habt gestanden|seid gestanden",
+      "sie": "haben gestanden|sind gestanden"
+    },
+    "note": "In southern Germany, Austria and Switzerland the Perfekt uses sein: „Ich bin gestanden.“"
+  },
+  {
+    "id": "liegen",
+    "infinitive": "liegen",
+    "en": "to lie (be lying)",
+    "type": "irregular",
+    "separable": false,
+    "auxiliary": "haben",
+    "participle": "gelegen",
+    "present": {
+      "ich": "liege",
+      "du": "liegst",
+      "er": "liegt",
+      "wir": "liegen",
+      "ihr": "liegt",
+      "sie": "liegen"
+    },
+    "preterite": {
+      "ich": "lag",
+      "du": "lagst",
+      "er": "lag",
+      "wir": "lagen",
+      "ihr": "lagt",
+      "sie": "lagen"
+    },
+    "perfect": {
+      "ich": "habe gelegen|bin gelegen",
+      "du": "hast gelegen|bist gelegen",
+      "er": "hat gelegen|ist gelegen",
+      "wir": "haben gelegen|sind gelegen",
+      "ihr": "habt gelegen|seid gelegen",
+      "sie": "haben gelegen|sind gelegen"
+    },
+    "note": "In southern Germany, Austria and Switzerland the Perfekt uses sein: „Ich bin gelegen.“"
+  },
+  {
+    "id": "sitzen",
+    "infinitive": "sitzen",
+    "en": "to sit",
+    "type": "irregular",
+    "separable": false,
+    "auxiliary": "haben",
+    "participle": "gesessen",
+    "present": {
+      "ich": "sitze",
+      "du": "sitzt",
+      "er": "sitzt",
+      "wir": "sitzen",
+      "ihr": "sitzt",
+      "sie": "sitzen"
+    },
+    "preterite": {
+      "ich": "saß",
+      "du": "saßest|saßt",
+      "er": "saß",
+      "wir": "saßen",
+      "ihr": "saßt",
+      "sie": "saßen"
+    },
+    "perfect": {
+      "ich": "habe gesessen|bin gesessen",
+      "du": "hast gesessen|bist gesessen",
+      "er": "hat gesessen|ist gesessen",
+      "wir": "haben gesessen|sind gesessen",
+      "ihr": "habt gesessen|seid gesessen",
+      "sie": "haben gesessen|sind gesessen"
+    },
+    "note": "In southern Germany, Austria and Switzerland the Perfekt uses sein: „Ich bin gesessen.“"
+  },
+  {
+    "id": "tragen",
+    "infinitive": "tragen",
+    "en": "to carry, to wear",
+    "type": "irregular",
+    "separable": false,
+    "auxiliary": "haben",
+    "participle": "getragen",
+    "present": {
+      "ich": "trage",
+      "du": "trägst",
+      "er": "trägt",
+      "wir": "tragen",
+      "ihr": "tragt",
+      "sie": "tragen"
+    },
+    "preterite": {
+      "ich": "trug",
+      "du": "trugst",
+      "er": "trug",
+      "wir": "trugen",
+      "ihr": "trugt",
+      "sie": "trugen"
+    },
+    "perfect": {
+      "ich": "habe getragen",
+      "du": "hast getragen",
+      "er": "hat getragen",
+      "wir": "haben getragen",
+      "ihr": "habt getragen",
+      "sie": "haben getragen"
+    }
+  },
+  {
+    "id": "waschen",
+    "infinitive": "waschen",
+    "en": "to wash",
+    "type": "irregular",
+    "separable": false,
+    "auxiliary": "haben",
+    "participle": "gewaschen",
+    "present": {
+      "ich": "wasche",
+      "du": "wäschst",
+      "er": "wäscht",
+      "wir": "waschen",
+      "ihr": "wascht",
+      "sie": "waschen"
+    },
+    "preterite": {
+      "ich": "wusch",
+      "du": "wuschest|wuschst",
+      "er": "wusch",
+      "wir": "wuschen",
+      "ihr": "wuscht",
+      "sie": "wuschen"
+    },
+    "perfect": {
+      "ich": "habe gewaschen",
+      "du": "hast gewaschen",
+      "er": "hat gewaschen",
+      "wir": "haben gewaschen",
+      "ihr": "habt gewaschen",
+      "sie": "haben gewaschen"
+    }
+  },
+  {
+    "id": "schwimmen",
+    "infinitive": "schwimmen",
+    "en": "to swim",
+    "type": "irregular",
+    "separable": false,
+    "auxiliary": "sein",
+    "participle": "geschwommen",
+    "present": {
+      "ich": "schwimme",
+      "du": "schwimmst",
+      "er": "schwimmt",
+      "wir": "schwimmen",
+      "ihr": "schwimmt",
+      "sie": "schwimmen"
+    },
+    "preterite": {
+      "ich": "schwamm",
+      "du": "schwammst",
+      "er": "schwamm",
+      "wir": "schwammen",
+      "ihr": "schwammt",
+      "sie": "schwammen"
+    },
+    "perfect": {
+      "ich": "bin geschwommen|habe geschwommen",
+      "du": "bist geschwommen|hast geschwommen",
+      "er": "ist geschwommen|hat geschwommen",
+      "wir": "sind geschwommen|haben geschwommen",
+      "ihr": "seid geschwommen|habt geschwommen",
+      "sie": "sind geschwommen|haben geschwommen"
+    }
+  },
+  {
+    "id": "fliegen",
+    "infinitive": "fliegen",
+    "en": "to fly",
+    "type": "irregular",
+    "separable": false,
+    "auxiliary": "sein",
+    "participle": "geflogen",
+    "present": {
+      "ich": "fliege",
+      "du": "fliegst",
+      "er": "fliegt",
+      "wir": "fliegen",
+      "ihr": "fliegt",
+      "sie": "fliegen"
+    },
+    "preterite": {
+      "ich": "flog",
+      "du": "flogst",
+      "er": "flog",
+      "wir": "flogen",
+      "ihr": "flogt",
+      "sie": "flogen"
+    },
+    "perfect": {
+      "ich": "bin geflogen",
+      "du": "bist geflogen",
+      "er": "ist geflogen",
+      "wir": "sind geflogen",
+      "ihr": "seid geflogen",
+      "sie": "sind geflogen"
+    }
+  },
+  {
+    "id": "rufen",
+    "infinitive": "rufen",
+    "en": "to call, to shout",
+    "type": "irregular",
+    "separable": false,
+    "auxiliary": "haben",
+    "participle": "gerufen",
+    "present": {
+      "ich": "rufe",
+      "du": "rufst",
+      "er": "ruft",
+      "wir": "rufen",
+      "ihr": "ruft",
+      "sie": "rufen"
+    },
+    "preterite": {
+      "ich": "rief",
+      "du": "riefst",
+      "er": "rief",
+      "wir": "riefen",
+      "ihr": "rieft",
+      "sie": "riefen"
+    },
+    "perfect": {
+      "ich": "habe gerufen",
+      "du": "hast gerufen",
+      "er": "hat gerufen",
+      "wir": "haben gerufen",
+      "ihr": "habt gerufen",
+      "sie": "haben gerufen"
+    }
+  },
+  {
+    "id": "verlieren",
+    "infinitive": "verlieren",
+    "en": "to lose",
+    "type": "irregular",
+    "separable": false,
+    "auxiliary": "haben",
+    "participle": "verloren",
+    "present": {
+      "ich": "verliere",
+      "du": "verlierst",
+      "er": "verliert",
+      "wir": "verlieren",
+      "ihr": "verliert",
+      "sie": "verlieren"
+    },
+    "preterite": {
+      "ich": "verlor",
+      "du": "verlorst",
+      "er": "verlor",
+      "wir": "verloren",
+      "ihr": "verlort",
+      "sie": "verloren"
+    },
+    "perfect": {
+      "ich": "habe verloren",
+      "du": "hast verloren",
+      "er": "hat verloren",
+      "wir": "haben verloren",
+      "ihr": "habt verloren",
+      "sie": "haben verloren"
+    }
+  },
+  {
+    "id": "denken",
+    "infinitive": "denken",
+    "en": "to think",
+    "type": "mixed",
+    "separable": false,
+    "auxiliary": "haben",
+    "participle": "gedacht",
+    "present": {
+      "ich": "denke",
+      "du": "denkst",
+      "er": "denkt",
+      "wir": "denken",
+      "ihr": "denkt",
+      "sie": "denken"
+    },
+    "preterite": {
+      "ich": "dachte",
+      "du": "dachtest",
+      "er": "dachte",
+      "wir": "dachten",
+      "ihr": "dachtet",
+      "sie": "dachten"
+    },
+    "perfect": {
+      "ich": "habe gedacht",
+      "du": "hast gedacht",
+      "er": "hat gedacht",
+      "wir": "haben gedacht",
+      "ihr": "habt gedacht",
+      "sie": "haben gedacht"
+    }
+  },
+  {
+    "id": "bringen",
+    "infinitive": "bringen",
+    "en": "to bring",
+    "type": "mixed",
+    "separable": false,
+    "auxiliary": "haben",
+    "participle": "gebracht",
+    "present": {
+      "ich": "bringe",
+      "du": "bringst",
+      "er": "bringt",
+      "wir": "bringen",
+      "ihr": "bringt",
+      "sie": "bringen"
+    },
+    "preterite": {
+      "ich": "brachte",
+      "du": "brachtest",
+      "er": "brachte",
+      "wir": "brachten",
+      "ihr": "brachtet",
+      "sie": "brachten"
+    },
+    "perfect": {
+      "ich": "habe gebracht",
+      "du": "hast gebracht",
+      "er": "hat gebracht",
+      "wir": "haben gebracht",
+      "ihr": "habt gebracht",
+      "sie": "haben gebracht"
+    }
+  },
+  {
+    "id": "arbeiten",
+    "infinitive": "arbeiten",
+    "en": "to work",
+    "type": "regular",
+    "separable": false,
+    "auxiliary": "haben",
+    "participle": "gearbeitet",
+    "present": {
+      "ich": "arbeite",
+      "du": "arbeitest",
+      "er": "arbeitet",
+      "wir": "arbeiten",
+      "ihr": "arbeitet",
+      "sie": "arbeiten"
+    },
+    "preterite": {
+      "ich": "arbeitete",
+      "du": "arbeitetest",
+      "er": "arbeitete",
+      "wir": "arbeiteten",
+      "ihr": "arbeitetet",
+      "sie": "arbeiteten"
+    },
+    "perfect": {
+      "ich": "habe gearbeitet",
+      "du": "hast gearbeitet",
+      "er": "hat gearbeitet",
+      "wir": "haben gearbeitet",
+      "ihr": "habt gearbeitet",
+      "sie": "haben gearbeitet"
+    }
+  },
+  {
+    "id": "warten",
+    "infinitive": "warten",
+    "en": "to wait",
+    "type": "regular",
+    "separable": false,
+    "auxiliary": "haben",
+    "participle": "gewartet",
+    "present": {
+      "ich": "warte",
+      "du": "wartest",
+      "er": "wartet",
+      "wir": "warten",
+      "ihr": "wartet",
+      "sie": "warten"
+    },
+    "preterite": {
+      "ich": "wartete",
+      "du": "wartetest",
+      "er": "wartete",
+      "wir": "warteten",
+      "ihr": "wartetet",
+      "sie": "warteten"
+    },
+    "perfect": {
+      "ich": "habe gewartet",
+      "du": "hast gewartet",
+      "er": "hat gewartet",
+      "wir": "haben gewartet",
+      "ihr": "habt gewartet",
+      "sie": "haben gewartet"
+    }
+  },
+  {
+    "id": "reisen",
+    "infinitive": "reisen",
+    "en": "to travel",
+    "type": "regular",
+    "separable": false,
+    "auxiliary": "sein",
+    "participle": "gereist",
+    "present": {
+      "ich": "reise",
+      "du": "reist",
+      "er": "reist",
+      "wir": "reisen",
+      "ihr": "reist",
+      "sie": "reisen"
+    },
+    "preterite": {
+      "ich": "reiste",
+      "du": "reistest",
+      "er": "reiste",
+      "wir": "reisten",
+      "ihr": "reistet",
+      "sie": "reisten"
+    },
+    "perfect": {
+      "ich": "bin gereist",
+      "du": "bist gereist",
+      "er": "ist gereist",
+      "wir": "sind gereist",
+      "ihr": "seid gereist",
+      "sie": "sind gereist"
+    }
+  },
+  {
+    "id": "machen",
+    "infinitive": "machen",
+    "en": "to do, to make",
+    "type": "regular",
+    "separable": false,
+    "auxiliary": "haben",
+    "participle": "gemacht",
+    "present": {
+      "ich": "mache",
+      "du": "machst",
+      "er": "macht",
+      "wir": "machen",
+      "ihr": "macht",
+      "sie": "machen"
+    },
+    "preterite": {
+      "ich": "machte",
+      "du": "machtest",
+      "er": "machte",
+      "wir": "machten",
+      "ihr": "machtet",
+      "sie": "machten"
+    },
+    "perfect": {
+      "ich": "habe gemacht",
+      "du": "hast gemacht",
+      "er": "hat gemacht",
+      "wir": "haben gemacht",
+      "ihr": "habt gemacht",
+      "sie": "haben gemacht"
+    }
+  },
+  {
+    "id": "spielen",
+    "infinitive": "spielen",
+    "en": "to play",
+    "type": "regular",
+    "separable": false,
+    "auxiliary": "haben",
+    "participle": "gespielt",
+    "present": {
+      "ich": "spiele",
+      "du": "spielst",
+      "er": "spielt",
+      "wir": "spielen",
+      "ihr": "spielt",
+      "sie": "spielen"
+    },
+    "preterite": {
+      "ich": "spielte",
+      "du": "spieltest",
+      "er": "spielte",
+      "wir": "spielten",
+      "ihr": "spieltet",
+      "sie": "spielten"
+    },
+    "perfect": {
+      "ich": "habe gespielt",
+      "du": "hast gespielt",
+      "er": "hat gespielt",
+      "wir": "haben gespielt",
+      "ihr": "habt gespielt",
+      "sie": "haben gespielt"
+    }
+  },
+  {
+    "id": "lernen",
+    "infinitive": "lernen",
+    "en": "to learn, to study",
+    "type": "regular",
+    "separable": false,
+    "auxiliary": "haben",
+    "participle": "gelernt",
+    "present": {
+      "ich": "lerne",
+      "du": "lernst",
+      "er": "lernt",
+      "wir": "lernen",
+      "ihr": "lernt",
+      "sie": "lernen"
+    },
+    "preterite": {
+      "ich": "lernte",
+      "du": "lerntest",
+      "er": "lernte",
+      "wir": "lernten",
+      "ihr": "lerntet",
+      "sie": "lernten"
+    },
+    "perfect": {
+      "ich": "habe gelernt",
+      "du": "hast gelernt",
+      "er": "hat gelernt",
+      "wir": "haben gelernt",
+      "ihr": "habt gelernt",
+      "sie": "haben gelernt"
+    }
+  },
+  {
+    "id": "wohnen",
+    "infinitive": "wohnen",
+    "en": "to live (reside)",
+    "type": "regular",
+    "separable": false,
+    "auxiliary": "haben",
+    "participle": "gewohnt",
+    "present": {
+      "ich": "wohne",
+      "du": "wohnst",
+      "er": "wohnt",
+      "wir": "wohnen",
+      "ihr": "wohnt",
+      "sie": "wohnen"
+    },
+    "preterite": {
+      "ich": "wohnte",
+      "du": "wohntest",
+      "er": "wohnte",
+      "wir": "wohnten",
+      "ihr": "wohntet",
+      "sie": "wohnten"
+    },
+    "perfect": {
+      "ich": "habe gewohnt",
+      "du": "hast gewohnt",
+      "er": "hat gewohnt",
+      "wir": "haben gewohnt",
+      "ihr": "habt gewohnt",
+      "sie": "haben gewohnt"
+    }
+  },
+  {
+    "id": "kaufen",
+    "infinitive": "kaufen",
+    "en": "to buy",
+    "type": "regular",
+    "separable": false,
+    "auxiliary": "haben",
+    "participle": "gekauft",
+    "present": {
+      "ich": "kaufe",
+      "du": "kaufst",
+      "er": "kauft",
+      "wir": "kaufen",
+      "ihr": "kauft",
+      "sie": "kaufen"
+    },
+    "preterite": {
+      "ich": "kaufte",
+      "du": "kauftest",
+      "er": "kaufte",
+      "wir": "kauften",
+      "ihr": "kauftet",
+      "sie": "kauften"
+    },
+    "perfect": {
+      "ich": "habe gekauft",
+      "du": "hast gekauft",
+      "er": "hat gekauft",
+      "wir": "haben gekauft",
+      "ihr": "habt gekauft",
+      "sie": "haben gekauft"
+    }
+  },
+  {
+    "id": "sagen",
+    "infinitive": "sagen",
+    "en": "to say",
+    "type": "regular",
+    "separable": false,
+    "auxiliary": "haben",
+    "participle": "gesagt",
+    "present": {
+      "ich": "sage",
+      "du": "sagst",
+      "er": "sagt",
+      "wir": "sagen",
+      "ihr": "sagt",
+      "sie": "sagen"
+    },
+    "preterite": {
+      "ich": "sagte",
+      "du": "sagtest",
+      "er": "sagte",
+      "wir": "sagten",
+      "ihr": "sagtet",
+      "sie": "sagten"
+    },
+    "perfect": {
+      "ich": "habe gesagt",
+      "du": "hast gesagt",
+      "er": "hat gesagt",
+      "wir": "haben gesagt",
+      "ihr": "habt gesagt",
+      "sie": "haben gesagt"
+    }
+  },
+  {
+    "id": "fragen",
+    "infinitive": "fragen",
+    "en": "to ask",
+    "type": "regular",
+    "separable": false,
+    "auxiliary": "haben",
+    "participle": "gefragt",
+    "present": {
+      "ich": "frage",
+      "du": "fragst",
+      "er": "fragt",
+      "wir": "fragen",
+      "ihr": "fragt",
+      "sie": "fragen"
+    },
+    "preterite": {
+      "ich": "fragte",
+      "du": "fragtest",
+      "er": "fragte",
+      "wir": "fragten",
+      "ihr": "fragtet",
+      "sie": "fragten"
+    },
+    "perfect": {
+      "ich": "habe gefragt",
+      "du": "hast gefragt",
+      "er": "hat gefragt",
+      "wir": "haben gefragt",
+      "ihr": "habt gefragt",
+      "sie": "haben gefragt"
+    }
+  },
+  {
+    "id": "hoeren",
+    "infinitive": "hören",
+    "en": "to hear, to listen",
+    "type": "regular",
+    "separable": false,
+    "auxiliary": "haben",
+    "participle": "gehört",
+    "present": {
+      "ich": "höre",
+      "du": "hörst",
+      "er": "hört",
+      "wir": "hören",
+      "ihr": "hört",
+      "sie": "hören"
+    },
+    "preterite": {
+      "ich": "hörte",
+      "du": "hörtest",
+      "er": "hörte",
+      "wir": "hörten",
+      "ihr": "hörtet",
+      "sie": "hörten"
+    },
+    "perfect": {
+      "ich": "habe gehört",
+      "du": "hast gehört",
+      "er": "hat gehört",
+      "wir": "haben gehört",
+      "ihr": "habt gehört",
+      "sie": "haben gehört"
+    }
+  },
+  {
+    "id": "brauchen",
+    "infinitive": "brauchen",
+    "en": "to need",
+    "type": "regular",
+    "separable": false,
+    "auxiliary": "haben",
+    "participle": "gebraucht",
+    "present": {
+      "ich": "brauche",
+      "du": "brauchst",
+      "er": "braucht",
+      "wir": "brauchen",
+      "ihr": "braucht",
+      "sie": "brauchen"
+    },
+    "preterite": {
+      "ich": "brauchte",
+      "du": "brauchtest",
+      "er": "brauchte",
+      "wir": "brauchten",
+      "ihr": "brauchtet",
+      "sie": "brauchten"
+    },
+    "perfect": {
+      "ich": "habe gebraucht",
+      "du": "hast gebraucht",
+      "er": "hat gebraucht",
+      "wir": "haben gebraucht",
+      "ihr": "habt gebraucht",
+      "sie": "haben gebraucht"
+    }
+  },
+  {
+    "id": "kochen",
+    "infinitive": "kochen",
+    "en": "to cook",
+    "type": "regular",
+    "separable": false,
+    "auxiliary": "haben",
+    "participle": "gekocht",
+    "present": {
+      "ich": "koche",
+      "du": "kochst",
+      "er": "kocht",
+      "wir": "kochen",
+      "ihr": "kocht",
+      "sie": "kochen"
+    },
+    "preterite": {
+      "ich": "kochte",
+      "du": "kochtest",
+      "er": "kochte",
+      "wir": "kochten",
+      "ihr": "kochtet",
+      "sie": "kochten"
+    },
+    "perfect": {
+      "ich": "habe gekocht",
+      "du": "hast gekocht",
+      "er": "hat gekocht",
+      "wir": "haben gekocht",
+      "ihr": "habt gekocht",
+      "sie": "haben gekocht"
+    }
+  },
+  {
+    "id": "zeigen",
+    "infinitive": "zeigen",
+    "en": "to show",
+    "type": "regular",
+    "separable": false,
+    "auxiliary": "haben",
+    "participle": "gezeigt",
+    "present": {
+      "ich": "zeige",
+      "du": "zeigst",
+      "er": "zeigt",
+      "wir": "zeigen",
+      "ihr": "zeigt",
+      "sie": "zeigen"
+    },
+    "preterite": {
+      "ich": "zeigte",
+      "du": "zeigtest",
+      "er": "zeigte",
+      "wir": "zeigten",
+      "ihr": "zeigtet",
+      "sie": "zeigten"
+    },
+    "perfect": {
+      "ich": "habe gezeigt",
+      "du": "hast gezeigt",
+      "er": "hat gezeigt",
+      "wir": "haben gezeigt",
+      "ihr": "habt gezeigt",
+      "sie": "haben gezeigt"
+    }
+  },
+  {
+    "id": "glauben",
+    "infinitive": "glauben",
+    "en": "to believe",
+    "type": "regular",
+    "separable": false,
+    "auxiliary": "haben",
+    "participle": "geglaubt",
+    "present": {
+      "ich": "glaube",
+      "du": "glaubst",
+      "er": "glaubt",
+      "wir": "glauben",
+      "ihr": "glaubt",
+      "sie": "glauben"
+    },
+    "preterite": {
+      "ich": "glaubte",
+      "du": "glaubtest",
+      "er": "glaubte",
+      "wir": "glaubten",
+      "ihr": "glaubtet",
+      "sie": "glaubten"
+    },
+    "perfect": {
+      "ich": "habe geglaubt",
+      "du": "hast geglaubt",
+      "er": "hat geglaubt",
+      "wir": "haben geglaubt",
+      "ihr": "habt geglaubt",
+      "sie": "haben geglaubt"
+    }
+  },
+  {
+    "id": "aufstehen",
+    "infinitive": "aufstehen",
+    "en": "to get up",
+    "type": "irregular",
+    "separable": true,
+    "auxiliary": "sein",
+    "participle": "aufgestanden",
+    "present": {
+      "ich": "stehe auf",
+      "du": "stehst auf",
+      "er": "steht auf",
+      "wir": "stehen auf",
+      "ihr": "steht auf",
+      "sie": "stehen auf"
+    },
+    "preterite": {
+      "ich": "stand auf",
+      "du": "standest auf|standst auf",
+      "er": "stand auf",
+      "wir": "standen auf",
+      "ihr": "standet auf",
+      "sie": "standen auf"
+    },
+    "perfect": {
+      "ich": "bin aufgestanden",
+      "du": "bist aufgestanden",
+      "er": "ist aufgestanden",
+      "wir": "sind aufgestanden",
+      "ihr": "seid aufgestanden",
+      "sie": "sind aufgestanden"
+    }
+  },
+  {
+    "id": "anrufen",
+    "infinitive": "anrufen",
+    "en": "to call (on the phone)",
+    "type": "irregular",
+    "separable": true,
+    "auxiliary": "haben",
+    "participle": "angerufen",
+    "present": {
+      "ich": "rufe an",
+      "du": "rufst an",
+      "er": "ruft an",
+      "wir": "rufen an",
+      "ihr": "ruft an",
+      "sie": "rufen an"
+    },
+    "preterite": {
+      "ich": "rief an",
+      "du": "riefst an",
+      "er": "rief an",
+      "wir": "riefen an",
+      "ihr": "rieft an",
+      "sie": "riefen an"
+    },
+    "perfect": {
+      "ich": "habe angerufen",
+      "du": "hast angerufen",
+      "er": "hat angerufen",
+      "wir": "haben angerufen",
+      "ihr": "habt angerufen",
+      "sie": "haben angerufen"
+    }
+  },
+  {
+    "id": "einkaufen",
+    "infinitive": "einkaufen",
+    "en": "to go shopping",
+    "type": "regular",
+    "separable": true,
+    "auxiliary": "haben",
+    "participle": "eingekauft",
+    "present": {
+      "ich": "kaufe ein",
+      "du": "kaufst ein",
+      "er": "kauft ein",
+      "wir": "kaufen ein",
+      "ihr": "kauft ein",
+      "sie": "kaufen ein"
+    },
+    "preterite": {
+      "ich": "kaufte ein",
+      "du": "kauftest ein",
+      "er": "kaufte ein",
+      "wir": "kauften ein",
+      "ihr": "kauftet ein",
+      "sie": "kauften ein"
+    },
+    "perfect": {
+      "ich": "habe eingekauft",
+      "du": "hast eingekauft",
+      "er": "hat eingekauft",
+      "wir": "haben eingekauft",
+      "ihr": "habt eingekauft",
+      "sie": "haben eingekauft"
+    }
+  },
+  {
+    "id": "mitkommen",
+    "infinitive": "mitkommen",
+    "en": "to come along",
+    "type": "irregular",
+    "separable": true,
+    "auxiliary": "sein",
+    "participle": "mitgekommen",
+    "present": {
+      "ich": "komme mit",
+      "du": "kommst mit",
+      "er": "kommt mit",
+      "wir": "kommen mit",
+      "ihr": "kommt mit",
+      "sie": "kommen mit"
+    },
+    "preterite": {
+      "ich": "kam mit",
+      "du": "kamst mit",
+      "er": "kam mit",
+      "wir": "kamen mit",
+      "ihr": "kamt mit",
+      "sie": "kamen mit"
+    },
+    "perfect": {
+      "ich": "bin mitgekommen",
+      "du": "bist mitgekommen",
+      "er": "ist mitgekommen",
+      "wir": "sind mitgekommen",
+      "ihr": "seid mitgekommen",
+      "sie": "sind mitgekommen"
+    }
+  },
+  {
+    "id": "ankommen",
+    "infinitive": "ankommen",
+    "en": "to arrive",
+    "type": "irregular",
+    "separable": true,
+    "auxiliary": "sein",
+    "participle": "angekommen",
+    "present": {
+      "ich": "komme an",
+      "du": "kommst an",
+      "er": "kommt an",
+      "wir": "kommen an",
+      "ihr": "kommt an",
+      "sie": "kommen an"
+    },
+    "preterite": {
+      "ich": "kam an",
+      "du": "kamst an",
+      "er": "kam an",
+      "wir": "kamen an",
+      "ihr": "kamt an",
+      "sie": "kamen an"
+    },
+    "perfect": {
+      "ich": "bin angekommen",
+      "du": "bist angekommen",
+      "er": "ist angekommen",
+      "wir": "sind angekommen",
+      "ihr": "seid angekommen",
+      "sie": "sind angekommen"
+    }
+  },
+  {
+    "id": "fernsehen",
+    "infinitive": "fernsehen",
+    "en": "to watch TV",
+    "type": "irregular",
+    "separable": true,
+    "auxiliary": "haben",
+    "participle": "ferngesehen",
+    "present": {
+      "ich": "sehe fern",
+      "du": "siehst fern",
+      "er": "sieht fern",
+      "wir": "sehen fern",
+      "ihr": "seht fern",
+      "sie": "sehen fern"
+    },
+    "preterite": {
+      "ich": "sah fern",
+      "du": "sahst fern",
+      "er": "sah fern",
+      "wir": "sahen fern",
+      "ihr": "saht fern",
+      "sie": "sahen fern"
+    },
+    "perfect": {
+      "ich": "habe ferngesehen",
+      "du": "hast ferngesehen",
+      "er": "hat ferngesehen",
+      "wir": "haben ferngesehen",
+      "ihr": "habt ferngesehen",
+      "sie": "haben ferngesehen"
+    }
+  },
+  {
+    "id": "aufmachen",
+    "infinitive": "aufmachen",
+    "en": "to open",
+    "type": "regular",
+    "separable": true,
+    "auxiliary": "haben",
+    "participle": "aufgemacht",
+    "present": {
+      "ich": "mache auf",
+      "du": "machst auf",
+      "er": "macht auf",
+      "wir": "machen auf",
+      "ihr": "macht auf",
+      "sie": "machen auf"
+    },
+    "preterite": {
+      "ich": "machte auf",
+      "du": "machtest auf",
+      "er": "machte auf",
+      "wir": "machten auf",
+      "ihr": "machtet auf",
+      "sie": "machten auf"
+    },
+    "perfect": {
+      "ich": "habe aufgemacht",
+      "du": "hast aufgemacht",
+      "er": "hat aufgemacht",
+      "wir": "haben aufgemacht",
+      "ihr": "habt aufgemacht",
+      "sie": "haben aufgemacht"
+    }
+  },
+  {
+    "id": "einladen",
+    "infinitive": "einladen",
+    "en": "to invite",
+    "type": "irregular",
+    "separable": true,
+    "auxiliary": "haben",
+    "participle": "eingeladen",
+    "present": {
+      "ich": "lade ein",
+      "du": "lädst ein",
+      "er": "lädt ein",
+      "wir": "laden ein",
+      "ihr": "ladet ein",
+      "sie": "laden ein"
+    },
+    "preterite": {
+      "ich": "lud ein",
+      "du": "ludst ein|ludest ein",
+      "er": "lud ein",
+      "wir": "luden ein",
+      "ihr": "ludet ein",
+      "sie": "luden ein"
+    },
+    "perfect": {
+      "ich": "habe eingeladen",
+      "du": "hast eingeladen",
+      "er": "hat eingeladen",
+      "wir": "haben eingeladen",
+      "ihr": "habt eingeladen",
+      "sie": "haben eingeladen"
+    }
+  },
+  {
+    "id": "anfangen",
+    "infinitive": "anfangen",
+    "en": "to begin, to start",
+    "type": "irregular",
+    "separable": true,
+    "auxiliary": "haben",
+    "participle": "angefangen",
+    "present": {
+      "ich": "fange an",
+      "du": "fängst an",
+      "er": "fängt an",
+      "wir": "fangen an",
+      "ihr": "fangt an",
+      "sie": "fangen an"
+    },
+    "preterite": {
+      "ich": "fing an",
+      "du": "fingst an",
+      "er": "fing an",
+      "wir": "fingen an",
+      "ihr": "fingt an",
+      "sie": "fingen an"
+    },
+    "perfect": {
+      "ich": "habe angefangen",
+      "du": "hast angefangen",
+      "er": "hat angefangen",
+      "wir": "haben angefangen",
+      "ihr": "habt angefangen",
+      "sie": "haben angefangen"
+    }
+  },
+  {
+    "id": "zurueckgeben",
+    "infinitive": "zurückgeben",
+    "en": "to give back",
+    "type": "irregular",
+    "separable": true,
+    "auxiliary": "haben",
+    "participle": "zurückgegeben",
+    "present": {
+      "ich": "gebe zurück",
+      "du": "gibst zurück",
+      "er": "gibt zurück",
+      "wir": "geben zurück",
+      "ihr": "gebt zurück",
+      "sie": "geben zurück"
+    },
+    "preterite": {
+      "ich": "gab zurück",
+      "du": "gabst zurück",
+      "er": "gab zurück",
+      "wir": "gaben zurück",
+      "ihr": "gabt zurück",
+      "sie": "gaben zurück"
+    },
+    "perfect": {
+      "ich": "habe zurückgegeben",
+      "du": "hast zurückgegeben",
+      "er": "hat zurückgegeben",
+      "wir": "haben zurückgegeben",
+      "ihr": "habt zurückgegeben",
+      "sie": "haben zurückgegeben"
+    }
+  }
+]
